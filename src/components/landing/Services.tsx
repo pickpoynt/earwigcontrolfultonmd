@@ -1,53 +1,53 @@
-import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck, Droplets, Waves } from "lucide-react";
+import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck, Droplets, Waves, Building2 } from "lucide-react";
 
 const services = [
   {
-    icon: Waves,
-    title: "Sub-Floor Extraction",
-    description: "Removing water trapped beneath Litchfield Park hardwood using high-pressure vacuum mats. We save your floors without removing them.",
-    link: "#hardwood-drying-info"
+    icon: Building2,
+    title: "High-Rise Extraction",
+    description: "Removing water from Ocean City high-rise condos using specialized high-lift pumping systems. We handle multi-floor water migration.",
+    link: "#condo-restoration-info"
   },
   {
-    icon: Thermometer,
-    title: "Directed Heat Drying",
-    description: "Speeding up evaporation in water-damaged AZ homes with controlled heat trailers. Essential for restoring dense hardwood grain.",
-    link: "#hardwood-drying-info"
+    icon: Waves,
+    title: "Ocean Surge Cleanup",
+    description: "Rapid sanitation and drying for Ocean City beachfront properties after coastal storm surges and Atlantic flooding events.",
+    link: "#condo-restoration-info"
   },
   {
     icon: Activity,
-    title: "Moisture Mapping",
-    description: "Digital tracking of water migration in Litchfield Park properties using thermal imaging and deep-penetration moisture meters.",
-    link: "#hardwood-drying-info"
+    title: "Structural Profiling",
+    description: "Digital mapping of moisture behind drywall and concrete in Ocean City condos using non-invasive thermal imaging cameras.",
+    link: "#condo-restoration-info"
   },
   {
     icon: Filter,
     title: "LGR Dehumidification",
-    description: "Extracting gallons of moisture from the air to prevent secondary damage and mold growth in your Litchfield Park residence.",
-    link: "#hardwood-drying-info"
+    description: "Removing massive amounts of humidity from MD condo units to prevent persistent beach dampness and secondary mold growth.",
+    link: "#condo-restoration-info"
   },
   {
     icon: Wind,
     title: "In-Place Drying",
-    description: "Specialized techniques to dry hardwood in-place, eliminating the cost and mess of floor replacement in Litchfield Park.",
-    link: "#hardwood-drying-info"
+    description: "Scientific drying techniques to save walls and flooring in Ocean City residences, reducing restoration costs and downtime.",
+    link: "#condo-restoration-info"
   },
   {
     icon: AlertTriangle,
-    title: "Buckling Repair",
-    description: "Advanced structural drying to pull cupped or buckled wood floors back down to the subfloor as moisture levels equalize.",
-    link: "#hardwood-drying-info"
-  },
-  {
-    icon: Sparkles,
-    title: "Hardwood Sanitization",
-    description: "Applying botanical anti-microbials to the underside of Litchfield Park flooring to prevent mold and bacteria after water leaks.",
-    link: "#hardwood-drying-info"
+    title: "Mold Remediation",
+    description: "Full-scale containment and removal of coastal mold colonies that thrive in Ocean City's salt-air and humid condo environments.",
+    link: "#condo-restoration-info"
   },
   {
     icon: ShieldCheck,
-    title: "Certified Dry Guarantee",
-    description: "Arizona's most thorough moisture inspection. We provide digital verification that your structure is 100% dry before we finish.",
-    link: "#hardwood-drying-info"
+    title: "Maryland Licensed",
+    description: "Professional restoration services fully insured and licensed for work in Maryland condo associations and high-rise HOAs.",
+    link: "#condo-restoration-info"
+  },
+  {
+    icon: Zap,
+    title: "24/7 Rapid Response",
+    description: "Ocean City's fastest emergency crew for condo leaks. We are on the boardwalk ready to respond within 45 minutes.",
+    link: "#condo-restoration-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Litchfield Park's Floor Drying Technology
+            Ocean City's Condo Restoration Technology
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Don't tear up your investment. Our Litchfield Park restoration team uses advanced physics and directed air-flow to save water-damaged hardwood floors.
+            Protect your beach investment. Our Ocean City restoration team uses specialized high-rise equipment and coastal drying protocols to save your property.
           </p>
         </div>
 
@@ -73,10 +73,10 @@ const Services = () => {
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
               >
                 <a href={service.link}>
-                  <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
-                    <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center mb-4 group-hover:bg-cyan-600 transition-colors">
+                    <Icon className="w-6 h-6 text-cyan-600 group-hover:text-white transition-colors" />
                   </div>
-                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-slate-600 text-sm leading-relaxed">

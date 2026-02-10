@@ -7,24 +7,24 @@ import {
 
 const faqs = [
   {
-    question: "Can water-damaged hardwood floors actually be saved in Litchfield Park?",
-    answer: "Yes. Using specialized Litchfield Park sub-floor extraction mats, we can often pull moisture out of the planks and subfloor before permanent warping occurs. The key is rapid response—ideally within the first 24-48 hours."
+    question: "Do you work with Ocean City condo associations?",
+    answer: "Yes. We are familiar with the specific requirements of OC condo HOAs and can provide the necessary documentation and proof of insurance required for high-rise restoration in Maryland."
   },
   {
-    question: "What is 'cupping' and can it be reversed?",
-    answer: "Cupping happens when the bottom of the wood plank is wetter than the top, causing the edges to rise. Our directed-heat drying systems in Litchfield Park equalize moisture levels across the entire plank, pulling boards back down to their flat state."
+    question: "How do you handle water damage that came from the unit above me?",
+    answer: "We use infrared cameras and moisture meters to track the exact path of the leak through the shared concrete and utility stacks. We'll document everything for both your insurance and the upstairs owner's insurance."
   },
   {
-    question: "How long does the drying process take in the Arizona climate?",
-    answer: "While Arizona's air is dry, the moisture trapped under hardwood is insulated. Typically, our Litchfield Park drying cycles take 3 to 5 days. We use digital monitoring to ensure the 'Dry Standard' is met before equipment is removed."
+    question: "Can salt water damage be completely removed from a condo?",
+    answer: "Yes, but it requires professional desalinization and specialized cleaning agents. Our Ocean City team is specifically trained to handle salt-water intrusions from coastal storms and Atlantic surges."
   },
   {
-    question: "Will my insurance cover hardwood floor drying in Litchfield Park?",
-    answer: "Most homeowner policies cover water damage from 'sudden and accidental' leaks. Drying floors is often significantly cheaper than replacement, making it a preferred option for insurance adjusters. We provide full digital documentation."
+    question: "Is mold a risk in Ocean City condos after a water leak?",
+    answer: "Absolutely. Ocean City's high humidity and salt air create an ideal environment for mold. We use industrial-strength dehumidifiers and anti-microbial treatments to prevent growth before it starts."
   },
   {
-    question: "Is it safe to stay in my home during the drying process?",
-    answer: "Generally, yes. Our Litchfield Park equipment, including LGR dehumidifiers and HEPA air scrubbers, actually improves indoor air quality. We use botanical-based treatments that are safe for pets and children."
+    question: "Do you provide emergency board-up services for beachfront properties?",
+    answer: "Yes, we offer 24/7 emergency board-up and window sealing for Ocean City condos affected by hurricane-force winds or large waves on the boardwalk."
   }
 ];
 
@@ -34,17 +34,17 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Litchfield Park Floor Drying FAQ
+            Ocean City Condo Restoration FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Professional restoration expertise for Litchfield Park homeowners and property managers.
+            Professional restoration expertise for Ocean City condo owners and beachfront property managers.
           </p>
         </div>
 
         <Accordion type="single" collapsible className="w-full space-y-4">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`} className="border border-slate-200 rounded-xl px-4 bg-white shadow-sm overflow-hidden">
-              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-blue-600 py-6 transition-colors font-semibold leading-relaxed">
+              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-cyan-600 py-6 transition-colors leading-relaxed">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 leading-relaxed pb-6">

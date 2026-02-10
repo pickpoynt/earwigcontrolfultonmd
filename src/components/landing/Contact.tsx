@@ -1,4 +1,4 @@
-import { Phone, MapPin, ShieldCheck, Droplets } from "lucide-react";
+import { Phone, MapPin, ShieldCheck, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -8,20 +8,20 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 leading-tight">
-              Schedule Your Litchfield Park Wood Drying
+              Schedule Your Ocean City Condo Restoration
             </h2>
             <p className="text-xl text-slate-300 mb-10 leading-relaxed font-medium">
-              Don't let water ruin your investment. Our Litchfield Park floor drying specialists use advanced technology to permanently extract moisture from your Arizona property.
+              Protect your beachfront investment. Our Ocean City condo restoration specialists use advanced technology to permanently extract moisture from your Maryland property.
             </p>
 
             <div className="space-y-6">
               <div className="flex items-center gap-6">
-                <div className="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center shrink-0 shadow-lg shadow-blue-900/40">
+                <div className="w-14 h-14 bg-cyan-600 rounded-2xl flex items-center justify-center shrink-0 shadow-lg shadow-cyan-900/40">
                   <Phone className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Litchfield Park Hotline</div>
-                  <a href="tel:3802660944" className="text-2xl md:text-3xl font-heading font-bold text-white hover:text-blue-400 transition-colors">
+                  <div className="text-cyan-400 font-bold mb-1 uppercase tracking-wider text-sm">Ocean City Hotline</div>
+                  <a href="tel:3802660944" className="text-2xl md:text-3xl font-heading font-bold text-white hover:text-cyan-400 transition-colors">
                     (380) 266-0944
                   </a>
                 </div>
@@ -29,24 +29,24 @@ const Contact = () => {
 
               <div className="flex items-center gap-6">
                 <div className="w-14 h-14 bg-slate-800 rounded-2xl flex items-center justify-center shrink-0 border border-slate-700">
-                  <MapPin className="w-7 h-7 text-blue-400" />
+                  <MapPin className="w-7 h-7 text-cyan-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Litchfield Park HQ</div>
+                  <div className="text-cyan-400 font-bold mb-1 uppercase tracking-wider text-sm">Ocean City HQ</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    Serving Litchfield Park, Goodyear, & Surprise
+                    Serving Ocean City & Coastal Highway
                   </div>
                 </div>
               </div>
 
               <div className="flex items-center gap-6">
                 <div className="w-14 h-14 bg-slate-800 rounded-2xl flex items-center justify-center shrink-0 border border-slate-700">
-                  <Droplets className="w-7 h-7 text-blue-400" />
+                  <Building2 className="w-7 h-7 text-cyan-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Restoration Status</div>
+                  <div className="text-cyan-400 font-bold mb-1 uppercase tracking-wider text-sm">Restoration Status</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    24/7 Emergency Floor & Sub-floor Drying
+                    24/7 Emergency High-Rise & Condo Drying
                   </div>
                 </div>
               </div>
@@ -56,23 +56,23 @@ const Contact = () => {
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden animate-fade-in-delay-1">
             <div className="relative z-10">
               <h3 className="text-2xl font-heading font-bold text-slate-900 mb-4">
-                Request Hardwood Drying Assessment
+                Request Condo Restoration Assessment
               </h3>
               <p className="text-slate-600 mb-8 font-medium">
-                Call now for a professional moisture diagnostic. We offer upfront pricing and certified floor restoration for Litchfield Park homeowners and businesses.
+                Call now for a professional moisture diagnostic. We offer upfront pricing and certified condo restoration for Ocean City property owners and associations.
               </p>
 
-              <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 mb-8">
+              <div className="p-6 bg-cyan-50 rounded-2xl border border-cyan-100 mb-8">
                 <div className="flex gap-4 items-start">
-                  <ShieldCheck className="w-6 h-6 text-blue-600 shrink-0" />
+                  <ShieldCheck className="w-6 h-6 text-cyan-600 shrink-0" />
                   <div>
-                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">AZ Licensed & Bonded</div>
-                    <p className="text-sm text-slate-600">Arizona Remediation License #LPWOOD1. Certified IICRC Water Damage Restoration Specialists.</p>
+                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">MD Licensed & Bonded</div>
+                    <p className="text-sm text-slate-600">Maryland Remediation License #OCMDREST1. Certified IICRC Water Damage Restoration Specialists.</p>
                   </div>
                 </div>
               </div>
 
-              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white shadow-xl shadow-blue-200 h-16 text-xl font-bold rounded-2xl" asChild>
+              <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white shadow-xl shadow-cyan-200 h-16 text-xl font-bold rounded-2xl" asChild>
                 <a href="tel:3802660944" className="flex items-center justify-center gap-3">
                   <Phone className="w-6 h-6" />
                   Call (380) 266-0944
@@ -84,7 +84,7 @@ const Contact = () => {
 
 
 
-            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full -translate-y-1/2 translate-x-1/2 opacity-50" />
+            <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-100 rounded-full -translate-y-1/2 translate-x-1/2 opacity-50" />
           </div>
         </div>
       </div>
