@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Basement mold testing Ambler | Ambler Basement Mold Lab</title>
+        <title>Basement mold testing Ambler</title>
         <meta name="description" content="Basement mold testing Ambler. Professional air quality testing, spore counting, and hidden moisture mapping for Ambler basements. Certified lab results. Call (380) 266-0944!" />
         <meta name="keywords" content="Basement mold testing Ambler, mold inspector Ambler PA, basement air quality testing Ambler, Montgomery County mold testing" />
         <link rel="canonical" href="https://ambler-mold-testing.com/" />
@@ -103,7 +103,7 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Basement mold testing Ambler | Ambler Basement Mold Lab" />
+        <meta property="og:title" content="Basement mold testing Ambler" />
         <meta property="og:description" content="Scientific basement mold testing in Ambler, PA. Certified inspectors and lab results for hidden moisture and spore counts. Call (380) 266-0944." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ambler-mold-testing.com/" />
@@ -113,13 +113,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero
-          title={
-            <>
-              Basement mold testing Ambler
-              <span className="block text-blue-500 mt-2 text-2xl md:text-4xl">Ambler Basement Mold Lab: Precision Diagnostics</span>
-            </>
-          }
-          subtitle="Is your basement hiding toxic spores? Our independent certified inspectors use medical-grade air sampling and infrared mapping to reveal hidden mold colonies in your Ambler home with absolute scientific certainty."
+          title="Basement mold testing Ambler"
+          subtitle="Is your basement hiding toxic spores? Our independent certified inspectors use medical-grade air sampling and infrared mapping to reveal hidden mold colonies in your Ambler home with absolute scientific certainty. Ambler Basement Mold Lab: Precision Diagnostics."
           image="https://images.unsplash.com/photo-1503708928676-1cb796a0891e?auto=format&fit=crop&q=80"
         />
         <Services />
