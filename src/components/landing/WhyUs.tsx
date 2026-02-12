@@ -31,10 +31,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 px-4">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Montvale Homeowners Choose Our <span className="text-indigo-400">Foundation Reset</span>
+            Why Haddon Heights Homeowners Choose Our <span className="text-indigo-400">Attic Reset</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            White mold on your crawl space floor is a sign of foundation-level environmental failure. Our Bergen County specialists restore structural health and air purity.
+            Attic mold is a signal of roof-level environmental failure. Our Camden County specialists restore structural health and air purity from the top down.
           </p>
         </div>
 
@@ -42,23 +42,23 @@ const WhyUs = () => {
           {[
             {
               icon: Wind,
-              title: "Scientific Extraction",
-              description: "We don't just 'wipe' mold—we use surgical negative-air containment to prevent spores from entering your Montvale home."
+              title: "HEPA-Pulse Removal",
+              description: "Our high-pressure HEPA extraction systems clean deep into the wood grain of your attic decking without spreading spores."
             },
             {
               icon: Search,
-              title: "Intrusion Diagnostics",
-              description: "Detecting the exact groundwater entry points that cause white mold on concrete slabs and dirt floors."
+              title: "Leak Path Mapping",
+              description: "Detecting the exact roof and flashing failures that create the moisture environment attic mold needs to survive."
             },
             {
               icon: ShieldCheck,
-              title: "Structural Safety",
-              description: "Our antimicrobial treatments are EPA-certified and 100% safe for household residents and pets once applied."
+              title: "IICRC Certified",
+              description: "Our Haddon Heights teams follow strict S520 mold remediation standards for safe, laboratory-verified biological removal."
             },
             {
               icon: Activity,
-              title: "Humidity Audits",
-              description: "Digital verification of crawl space moisture levels ensuring your white mold problem is solved for the long term."
+              title: "Airflow Optimization",
+              description: "We don't just clear mold—we re-engineer your attic ventilation to prevent future condensation and microbial growth."
             }
           ].map((feature, index) => (
             <div
@@ -78,9 +78,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4">White Spotting on Floor?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">Dark Spots in the Attic?</h3>
             <p className="text-indigo-50 text-lg font-medium opacity-90">
-              Our Montvale diagnostic teams can identify if it's white mold or efflorescence and provide a full removal plan within 24 hours.
+              Our Haddon Heights diagnostic teams can identify attic mold species and provide a full remediation plan within 24 hours.
             </p>
           </div>
           <a

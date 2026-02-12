@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Foundation <span className="text-indigo-600">Restoration Science</span>
+            Attic <span className="text-indigo-600">Restoration Science</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Montvale foundations require specialized moisture management. We don't just clear white mold; we engineer environments where it cannot return.
+            Haddon Heights attics require specialized moisture management. We don't just clear attic mold; we engineer environments where it cannot return.
           </p>
         </div>
 
@@ -44,26 +44,26 @@ const Services = () => {
           {[
             {
               icon: Wind,
-              title: "White Mold Removal",
-              description: "Surgical extraction of powdery white mold (and efflorescence identification) from structural crawl space elements.",
+              title: "Attic Mold Removal",
+              description: "Surgical extraction of toxic black and white mold from structural roof decking and attic joists in Haddon Heights homes.",
               link: "#musty-odor-info"
             },
             {
               icon: Microscope,
-              title: "Slab Decontamination",
-              description: "Chemical neutralization of mold spores embedded in concrete floors and masonry foundation walls in Montvale homes.",
+              title: "Spore Neutralization",
+              description: "Chemical neutralization of airborne mold spores using hospital-grade biocides and advanced HEPA filtration protocols.",
               link: "#musty-odor-info"
             },
             {
               icon: Gauge,
-              title: "Vapor Barrier Pro",
-              description: "Installation of 20-mil high-durability vapor barriers to isolate your crawl space floor from groundwater moisture.",
+              title: "Insulation Reset",
+              description: "Complete removal of mold-contaminated insulation followed by precision air-sealing and high-efficiency replacement.",
               link: "#musty-odor-info"
             },
             {
               icon: Shield,
-              title: "Structural Dry-Out",
-              description: "Industrial-grade dehumidification and HEPA air scrubbing to reset your home's foundation to safe, dry levels.",
+              title: "Ventilation Audit",
+              description: "Digital analysis of attic airflow to identify ridge vent, soffit, or baffle failures that cause condensation and mold.",
               link: "#musty-odor-info"
             }
           ].map((service, index) => (

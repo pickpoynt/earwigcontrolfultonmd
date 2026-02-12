@@ -9,18 +9,18 @@ const MustyOdorRemovalInfo = () => {
                         <div className="absolute -top-10 -left-10 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-60" />
                         <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                             <img
-                                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
-                                alt="White mold on crawl space floor Montvale"
+                                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80"
+                                alt="Attic mold remediation Haddon Heights"
                                 className="w-full h-auto"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
                             <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-2xl">
                                 <div className="flex items-center gap-3 mb-2 text-indigo-600">
                                     <Wind className="w-5 h-5" />
-                                    <span className="font-bold uppercase tracking-wider text-sm">Crawl Space Restoration</span>
+                                    <span className="font-bold uppercase tracking-wider text-sm">Attic Restoration Science</span>
                                 </div>
                                 <p className="text-slate-800 font-medium">
-                                    Bergen County crawl spaces are prone to white mold. We provide scientific remediation and moisture control.
+                                    Haddon Heights attics face unique moisture challenges. We provide surgical mold extraction and insulation resets.
                                 </p>
                             </div>
                         </div>
@@ -31,29 +31,29 @@ const MustyOdorRemovalInfo = () => {
 
                     <div className="lg:w-1/2">
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 leading-tight">
-                            Scientific <span className="text-indigo-600 uppercase">MOLD REMEDIATION</span> for Bergen County Foundations
+                            Scientific <span className="text-indigo-600 uppercase">ATTIC REMEDIATION</span> for Haddon Heights Homes
                         </h2>
 
                         <p className="text-lg text-slate-600 mb-8 leading-relaxed italic">
-                            Identifying "White mold on crawl space floor Montvale" is the first step toward protecting your home's structural integrity. Often confused with efflorescence, <strong className="text-slate-900 uppercase">white mold</strong> thrives on wood, dirt floors, and concrete in high-humidity Montvale environments.
+                            Identifying "Attic mold remediation Haddon Heights" early is critical to preventing structural rot and cross-contamination. <strong className="text-slate-900 uppercase">Attic mold</strong> often goes unnoticed until it affects your home's air quality or causes wood decay.
                         </p>
 
                         <div className="space-y-6">
                             {[
                                 {
                                     icon: Wind,
-                                    title: "HEPA Filtration & Containment",
-                                    desc: "We use laboratory-grade HEPA air scrubbers to create negative air pressure, preventing spores from entering your Montvale living spaces during cleanup."
+                                    title: "Negative Air Containment",
+                                    desc: "We use high-volume HEPA air scrubbers to create a sealed environment, ensuring mold spores are captured and filtered out of your Haddon Heights attic during remediation."
                                 },
                                 {
                                     icon: Microscope,
-                                    title: "Sub-Floor Diagnostics",
-                                    desc: "Our technicians use deep-probe moisture sensors to find the hidden water intrusion points fueling the white mold growth on your crawl space floor."
+                                    title: "Roof-Level Diagnostics",
+                                    desc: "Our technicians perform deep-thermal imaging to find roof leaks or ventilation failures that are feeding the mold colonies in your attic space."
                                 },
                                 {
                                     icon: CheckCircle2,
-                                    title: "Permanent Vapor Control",
-                                    desc: "We don't just clean—we solve. Our 20-mil reinforced vapor barrier systems encapsulate your crawl space to stop future mold cycles forever."
+                                    title: "Insulation Restoration",
+                                    desc: "We don't just clean—we restore. Our team provides professional insulation removal and replacement to reset your home's thermal and biological health."
                                 }
                             ].map((item, idx) => (
                                 <div key={idx} className="flex gap-4 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition-colors group">
@@ -83,7 +83,7 @@ const MustyOdorRemovalInfo = () => {
                                     </div>
                                 ))}
                                 <div className="pl-4 text-sm font-bold text-slate-500 italic uppercase tracking-wider">
-                                    Serving Bergen County foundations since 2012
+                                    Serving Haddon Heights structures since 2012
                                 </div>
                             </div>
                         </div>

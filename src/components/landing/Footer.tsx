@@ -11,12 +11,12 @@ const Footer = () => {
                 <Wind className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight">MONTVALE</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">CRAWL SPACE PROS</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight">HADDON HEIGHTS</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">ATTIC MOLD PROS</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              Bergen County's premier specialists in permanent crawl space mold remediation and structural restoration. We eliminate white mold safely and effectively.
+              Camden County's premier specialists in permanent attic mold remediation and structural roof restoration. We eliminate attic mold safely and effectively.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-indigo-600 transition-colors group">
@@ -34,11 +34,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 font-heading text-white">Our Services</h4>
             <ul className="space-y-4">
-              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> White Mold Removal</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Vapor Barrier Setup</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Decontamination</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Attic Mold Removal</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Insulation Reset</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Deck Decontamination</a></li>
               <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> HEPA Air Scrubbing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Moisture Diagnostics</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Ventilation Audits</a></li>
             </ul>
           </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-8 font-heading text-white">Company</h4>
             <ul className="space-y-4">
               <li><a href="#why-us" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium uppercase text-xs tracking-widest">Our Pure Air Pledge</a></li>
-              <li><a href="#musty-odor-info" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium uppercase text-xs tracking-widest">Mold Science</a></li>
+              <li><a href="#musty-odor-info" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium uppercase text-xs tracking-widest">Attic Science</a></li>
               <li><a href="#faq" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium uppercase text-xs tracking-widest">Remediation FAQ</a></li>
               <li><a href="#contact" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium uppercase text-xs tracking-widest">Free Inspection</a></li>
               <li><p className="text-slate-400 font-medium uppercase text-xs tracking-widest">Privacy Policy</p></li>
@@ -54,14 +54,14 @@ const Footer = () => {
           </div>
 
           <div className="space-y-8">
-            <h4 className="text-lg font-bold mb-8 font-heading text-white uppercase tracking-widest">MONTVALE CRAWL HOTLINE</h4>
+            <h4 className="text-lg font-bold mb-8 font-heading text-white uppercase tracking-widest">HADDON MOLD HOTLINE</h4>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
                   <Phone className="w-5 h-5 text-indigo-500" />
                 </div>
                 <div>
-                  <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Montvale Office</p>
+                  <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Haddon Heights Office</p>
                   <a href="tel:3802660944" className="text-lg font-bold text-white hover:text-indigo-500 transition-colors">
                     (380) 266-0944
                   </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Service Region</p>
                   <p className="text-white font-bold">
-                    Montvale & Bergen County
+                    Haddon Heights & Camden County
                   </p>
                 </div>
               </div>
@@ -84,11 +84,11 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} MONTVALE CRAWL SPACE PROS. SCIENTIFIC FOUNDATION RESTORATION.
+            © {new Date().getFullYear()} HADDON HEIGHTS ATTIC MOLD PROS. SCIENTIFIC STRUCTURAL RESTORATION.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Wind className="w-4 h-4 text-indigo-500" />
-            <span>IICRC & EPA Certified Mold Specialists</span>
+            <span>IICRC & EPA Certified Attic Specialists</span>
           </div>
         </div>
       </div>
@@ -100,19 +100,19 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Montvale Crawl Space Pros",
+          "name": "Haddon Heights Attic Mold Pros",
           "telephone": "+13802660944",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Montvale",
+            "addressLocality": "Haddon Heights",
             "addressRegion": "NJ",
-            "postalCode": "07645",
+            "postalCode": "08035",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "41.0473",
-            "longitude": "-74.0326"
+            "latitude": "39.8804",
+            "longitude": "-75.0660"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}

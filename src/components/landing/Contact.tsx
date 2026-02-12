@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Wind className="w-4 h-4" />
-                MONTVALE CRAWL SPACE PROS
+                HADDON HEIGHTS ATTIC PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Request a <span className="text-indigo-600">Foundation</span> Mold Analysis
+                Request an <span className="text-indigo-600">Attic</span> Mold Analysis
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                White mold on the floor is often just the tip of the iceberg. Our Montvale diagnostic teams provide structural-grade remediation and permanent vapor barrier resets.
+                Attic mold is often a hidden symptom of roof-level moisture failure. Our Haddon Heights diagnostic teams provide structural-grade remediation and permanent insulation resets.
               </p>
 
               <div className="space-y-8">
@@ -25,7 +25,7 @@ const Contact = () => {
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">MONTVALE CRAWL HOTLINE</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">HADDON MOLD HOTLINE</p>
                     <a href="tel:3802660944" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
                       (380) 266-0944
                     </a>
@@ -37,7 +37,7 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Atmosphere Reset</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Structural Care</p>
                     <p className="text-xl font-bold text-slate-900">Hospital-Grade Decontamination</p>
                   </div>
                 </div>
@@ -48,14 +48,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Montvale & Bergen County, NJ</p>
+                    <p className="text-xl font-bold text-slate-900">Haddon Heights & Camden County, NJ</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Foundation Analysis</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Attic Analysis</h3>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -78,11 +78,11 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Problem Area</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                    <option>White Mold on Dirt Floor</option>
-                    <option>White Powder on Concrete Slab</option>
-                    <option>Visible Mold on Joists</option>
-                    <option>Crawl Space Water Intrusion</option>
-                    <option>Full Foundation Encapsulation</option>
+                    <option>Mold on Roof Decking</option>
+                    <option>Black Spots on Insulation</option>
+                    <option>Visible Spores on Joists</option>
+                    <option>Attic Condensation Issue</option>
+                    <option>Full Insulation Restoration</option>
                   </select>
                 </div>
                 <div className="space-y-2">
@@ -90,14 +90,14 @@ const Contact = () => {
                   <textarea
                     rows={4}
                     className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
-                    placeholder="Describe what you see (e.g., white fuzz, powdery spots) and where it is strongest..."
+                    placeholder="Describe what you see (e.g., black spotting, wet insulation) and where it is strongest..."
                   ></textarea>
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest">
-                  Request Foundation Reset
+                  Request Attic Reset
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *Scientific white mold remediation and structural waterproofing
+                  *Scientific attic mold remediation and structural restoration
                 </p>
               </form>
             </div>

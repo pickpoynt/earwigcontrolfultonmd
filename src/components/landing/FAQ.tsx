@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Is the white powder on my crawl space floor mold or efflorescence?",
-    answer: "In Montvale, white powder on foundation floors can be either. Efflorescence is a salt deposit from evaporating water, while white mold is a biological growth. We use specialized testing and visual diagnostics to distinguish them—mold requires professional extraction, while efflorescence requires structural waterproofing."
+    question: "How did mold get into my Haddon Heights attic in the first place?",
+    answer: "Most attic mold in Haddon Heights is caused by poor ventilation (blocked soffits), roof leaks, or bathroom exhaust fans venting directly into the attic. These factors create high humidity levels that allow spores to settle and grow on the organic wood decking."
   },
   {
-    question: "Does white mold in the crawl space affect the air inside my home?",
-    answer: "Yes. Due to the 'stack effect,' air from your crawl space naturally rises into your living areas. If white mold spores are present on the floor or structural beams, they can be pulled upwards, potentially affecting indoor air quality and triggering allergies in your household."
+    question: "Do I need to replace all the wood in my attic if there is mold?",
+    answer: "Not usually. In most cases, we can use HEPA-vacuuming and dry-ice blasting or specialized antimicrobial cleaning to remove mold from the surface of the wood. We only recommend replacement if the structural integrity of the rafters is compromised by rot."
   },
   {
-    question: "How do you remove white mold from a dirt crawl space floor?",
-    answer: "For dirt floors, we remove the top layer of contaminated soil and apply an EPA-approved antimicrobial treatment. We then install a high-performance 20-mil vapor barrier to permanently seal the floor and prevent moisture from fueling future mold growth."
+    question: "Will the mold in my attic move down into my living spaces?",
+    answer: "Yes, potentially. Air in your home moves via the 'stack effect.' While attic air usually moves out, temperature fluctuations can cause spore-laden air to drop into your home's living areas, affecting your family's air quality."
   },
   {
-    question: "Is your crawl space mold treatment safe for my family?",
-    answer: "Absolutely. We use hospital-grade, non-toxic antimicrobial solutions. During the remediation process, we maintain negative air pressure with HEPA air scrubbers to ensure no dust or spores escape from the crawl space into your Montvale home."
+    question: "How long does attic mold remediation take?",
+    answer: "Most Haddon Heights residential attic projects are completed within 1 to 2 days. This includes the removal of contaminated insulation, biological cleaning of the wood decking, and the application of an antimicrobial sealant."
   },
   {
-    question: "How long does the crawl space remediation process take?",
-    answer: "Most Montvale residential crawl space projects are completed within 2 to 3 days. This includes debris removal, mold extraction, antimicrobial treatment, and the installation of a professional-grade encapsulation system."
+    question: "Does attic mold affect my home's resale value?",
+    answer: "Absolutely. Most home inspectors in Camden County will flag attic mold as a major issue. Professional remediation with a transferrable warranty is often required to successfully close a real estate transaction."
   }
 ];
 
@@ -31,7 +31,7 @@ const FAQ = () => {
               Remediation <span className="text-indigo-600">Science FAQ</span>
             </h2>
             <p className="text-xl text-slate-600 font-medium leading-relaxed italic">
-              Expert answers to common questions about white mold on crawl space floors and foundation air quality in Montvale and Bergen County.
+              Expert answers to common questions about attic mold remediation and structural restoration in Haddon Heights and Camden County.
             </p>
           </div>
 
