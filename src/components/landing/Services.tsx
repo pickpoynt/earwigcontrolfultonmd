@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-emerald-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Coshocton property owners trust us for resilient infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for local Ohio communities.
+            North Ridgeville homeowners trust us for advanced suburban infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for all of Lorain County.
           </p>
         </div>
 

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import CoshoctonPlumbingInfo from "@/components/landing/CoshoctonPlumbingInfo";
+import NorthRidgevillePlumbingInfo from "@/components/landing/NorthRidgevillePlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumber coshocton ohio Coshocton Ohio</title>
-        <meta name="description" content="plumber coshocton ohio Coshocton Ohio - Expert plumbing repair, leak detection & infrastructure maintenance. Reliable residential and commercial services for Coshocton, Ohio. Call (877) 792-1410!" />
-        <meta name="keywords" content="plumber coshocton ohio, Coshocton Ohio plumber, plumbing repair Coshocton, village plumber Ohio, Coshocton County plumbing, historic home plumbing Coshocton" />
-        <link rel="canonical" href="https://coshocton-plumbing-pros.com/" />
+        <title>plumber north ridgeville ohio North Ridgeville OH</title>
+        <meta name="description" content="plumber north ridgeville ohio North Ridgeville OH - Precision plumbing repair, leak detection & infrastructure maintenance. 24/7 technical response for North Ridgeville and Lorain County. Call (877) 792-1410!" />
+        <meta name="keywords" content="plumber north ridgeville ohio, North Ridgeville plumber, plumbing repair North Ridgeville, emergency plumber North Ridgeville, Lorain County plumbing, North Ridgeville leak detection" />
+        <link rel="canonical" href="https://north-ridgeville-plumbing-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Coshocton Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1590644365607-1c5a519a9917?auto=format&fit=crop&q=80&w=1200",
+            "name": "North Ridgeville Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1517646281602-7b9265436d40?auto=format&fit=crop&q=80&w=1200",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Coshocton",
+              "addressLocality": "North Ridgeville",
               "addressRegion": "OH",
-              "postalCode": "43812",
+              "postalCode": "44039",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.2723",
-              "longitude": "-81.8590"
+              "latitude": "41.3895",
+              "longitude": "-82.0190"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Coshocton, OH"
+              "name": "North Ridgeville, OH"
             },
             "priceRange": "$$",
-            "description": "Professional residential and commercial plumbing services in Coshocton, Ohio. We specialize in maintenance, technical diagnostics, and high-performance plumbing care for historic and modern Ohio homes."
+            "description": "Professional residential plumbing services in North Ridgeville, Ohio. We specialize in maintenance, technical diagnostics, and high-performance plumbing care for Lorain County homes."
           })}
         </script>
 
@@ -55,39 +55,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Comprehensive Plumbing Solutions",
+            "serviceType": "Technical Residential Plumbing",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Coshocton Plumbing Pros",
+              "name": "North Ridgeville Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Coshocton, Ohio"
+              "name": "North Ridgeville, Ohio"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Coshocton Plumbing Services",
+              "name": "North Ridgeville Plumbing Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Historic Home Plumbing Preservation"
+                    "name": "Electronic Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Industrial & Agricultural Plumbing"
+                    "name": "Hydro-Jetting Infrastructure Support"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Infrastructure Repair"
+                    "name": "Water Quality Optimization"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumber coshocton ohio Coshocton Ohio - Coshocton Plumbing Pros" />
-        <meta property="og:description" content="Expert plumbing services in Coshocton, Ohio. Reliable infrastructure maintenance and technical restoration for local property owners." />
+        <meta property="og:title" content="plumber north ridgeville ohio North Ridgeville OH - North Ridgeville Plumbing Pros" />
+        <meta property="og:description" content="Expert plumbing services in North Ridgeville, Ohio. Precision diagnostics and infrastructure restoration for Lorain County residents." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://coshocton-plumbing-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1590644365607-1c5a519a9917?auto=format&fit=crop&q=80&w=1200" />
+        <meta property="og:url" content="https://north-ridgeville-plumbing-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-8846383242 payment-placeholder?auto=format&fit=crop&q=80&w=1200" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumber coshocton ohio Coshocton Ohio
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Coshocton Plumbing Pros</span>
+              plumber north ridgeville ohio North Ridgeville OH
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">North Ridgeville Plumbing Pros</span>
             </>
           }
-          subtitle="Coshocton's trusted authority for resilient local infrastructure. We provide precision diagnostics, expert preservation, and technical support for Ohio property owners. Village Pride."
-          image="https://images.unsplash.com/photo-1590644365607-1c5a519a9917?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80&w=2000"
-          badge="COSHOCTON MASTER PLUMBERS"
+          subtitle="North Ridgeville's trusted authority for high-performance home infrastructure. We provide precision diagnostics, technical repair, and elite support for Lorain County property owners. Suburban Engineering Excellence."
+          image="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=2000"
+          overlayImage="https://images.unsplash.com/photo-1542013936693-8846383242?auto=format&fit=crop&q=80&w=2000"
+          badge="NORTH RIDGEVILLE MASTER PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <CoshoctonPlumbingInfo />
+        <NorthRidgevillePlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
