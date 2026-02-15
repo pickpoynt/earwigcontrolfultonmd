@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Plumbing Services</span>
+            Comprehensive <span className="text-blue-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Alondra Park homeowners trust us for expert copper pipe pitting diagnostics and precision pinhole leak repair. We stop the leaks before they stop you.
+            Charlotte homeowners trust us for expert infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for the Queen City.
           </p>
         </div>
 

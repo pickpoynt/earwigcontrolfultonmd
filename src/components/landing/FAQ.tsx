@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "What causes copper pinhole leaks in Alondra Park?",
-    answer: "Copper pinhole leaks are typically caused by pitting corrosion, which occurs due to specific water chemistry factors and microscopic impurities in the pipe material. Local South Bay water conditions can accelerate this internal metal decay."
+    question: "Do you offer emergency plumbing in Charlotte?",
+    answer: "Yes. Our Charlotte emergency teams are available 24/7 for urgent pipe bursts, major leaks, and sewer backups. We provide rapid dispatching across Mecklenburg County to minimize property damage."
   },
   {
-    question: "How do you find a tiny pinhole leak?",
-    answer: "We use thermal imaging cameras to detect moisture patterns and temperature changes behind walls. This allows us to find the exact location of a microscopic copper leak without intrusive demo work in your Alondra Park home."
+    question: "How do you find hidden leaks in Charlotte homes?",
+    answer: "We utilize advanced infrastructure analytics and high-definition CCTV cameras to pinpoint hidden failures. This diagnostic approach allows us to find the exact source of a leak without unnecessary destruction of your Charlotte property."
   },
   {
-    question: "Should I replace all my copper pipes?",
-    answer: "Not always. If pinhole leaks are localized, a surgical sectional repair is often sufficient. However, if our systemic analysis shows widespread pitting corrosion throughout your Alondra Park property, we may recommend a strategic repiping plan."
+    question: "Are your plumbers licensed in North Carolina?",
+    answer: "Absolutely. All our technicians are master-licensed professionals who adhere strictly to NC building codes and Charlotte-Mecklenburg utilities standards for every repair and installation."
   },
   {
     question: "Will you provide a price before starting the work?",
-    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any work begins."
+    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any restoration begins."
   }
 ];
 

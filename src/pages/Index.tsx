@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import AlondraParkCopperPipeInfo from "@/components/landing/AlondraParkCopperPipeInfo";
+import CharlottePlumbingInfo from "@/components/landing/CharlottePlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Copper pipe pinhole leak repair Alondra Park Alondra Park</title>
-        <meta name="description" content="Copper pipe pinhole leak repair Alondra Park Alondra Park. Expert copper pipe pitting corrosion repair and pinhole leak detection in Alondra Park, CA. 24/7 rapid response and precision soldering. Call (877) 792-1410!" />
-        <meta name="keywords" content="Copper pipe pinhole leak repair Alondra Park, Alondra Park copper pipe repair, pinhole leak repair Alondra Park, copper pipe corrosion Alondra Park, South Bay copper plumbing" />
-        <link rel="canonical" href="https://alondra-park-copper-pros.com/" />
+        <title>plumber charlotte nc Charlotte NC</title>
+        <meta name="description" content="plumber charlotte nc Charlotte NC. Expert plumbing repair, leak detection, and master drain services in Charlotte, NC. 24/7 emergency response and precision diagnostics. Call (877) 792-1410!" />
+        <meta name="keywords" content="plumber charlotte nc, Charlotte plumbers, emergency plumber Charlotte, drain cleaning Charlotte, plumbing repair NC, Queen City plumbing" />
+        <link rel="canonical" href="https://charlotte-plumbing-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Alondra Park Copper Pipe Pros",
-            "image": "https://images.unsplash.com/photo-1581244276891-643f809d8463?auto=format&fit=crop&q=80",
+            "name": "Charlotte Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1490151700639-6500772702f3?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Alondra Park",
-              "addressRegion": "CA",
-              "postalCode": "90249",
+              "addressLocality": "Charlotte",
+              "addressRegion": "NC",
+              "postalCode": "28202",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.8892",
-              "longitude": "-118.3306"
+              "latitude": "35.2271",
+              "longitude": "-80.8431"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Alondra Park, CA"
+              "name": "Charlotte, NC"
             },
             "priceRange": "$$",
-            "description": "Professional copper pipe pinhole leak repair and pitting corrosion diagnostics in Alondra Park, CA. We specialize in precision soldering and localized pipe restoration."
+            "description": "Professional residential and commercial plumbing services in Charlotte, NC. We specialize in rapid emergency response, leak detection, and Mastercrafter drain restoration across Mecklenburg County."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Copper Pipe Pinhole Leak Repair",
+            "serviceType": "Professional Plumbing & Drain Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Alondra Park Copper Pipe Pros",
+              "name": "Charlotte Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Alondra Park, CA"
+              "name": "Charlotte, NC"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Copper Pipe Services",
+              "name": "Plumbing Maintenance & Repair",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Pitting Corrosion Diagnostics"
+                    "name": "Emergency Pipe Burst Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Precision Copper Soldering & Repair"
+                    "name": "High-Tech Leak Pinpointing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Pinhole Leak Moisture Mapping"
+                    "name": "Mecklenburg Drain Restoration"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Whole-System Copper Assessment"
+                    "name": "Professional Water Line Installation"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Copper pipe pinhole leak repair Alondra Park - Expert Infrastructure Care" />
-        <meta property="og:description" content="Expert copper pinhole leak repair in Alondra Park. Stop microscopic pitting corrosion with precision soldering and thermal diagnostics. Fast response for South Bay property owners." />
+        <meta property="og:title" content="plumber charlotte nc - Charlotte's Master Plumbing Authority" />
+        <meta property="og:description" content="Expert plumbing and drain services in the Queen City. Rapid 24/7 response for CLT homeowners. Professional Infrastructure Quality." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://alondra-park-copper-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1581244276891-643f809d8463?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://charlotte-plumbing-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1490151700639-6500772702f3?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,18 +115,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Copper pipe pinhole leak repair Alondra Park
-              <span className="block text-orange-400 mt-2 text-2xl md:text-3xl italic">Alondra Park Copper Pipe Pros</span>
+              plumber charlotte nc
+              <span className="block text-blue-400 mt-2 text-2xl md:text-3xl italic">Charlotte Plumbing Pros</span>
             </>
           }
-          subtitle="Alondra Park's trusted authority for copper pipe pitting restoration. We provide high-precision pinhole leak repair, thermal diagnostics, and mastercraft soldering systems. Professional Infrastructure Quality."
-          image="https://images.unsplash.com/photo-1581244276184-7e504c86e06b?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1550156064-07d0d08018e6?auto=format&fit=crop&q=80"
-          badge="ALONDRA PARK COPPER PIPE EXPERTS"
+          subtitle="Charlotte's trusted authority for high-performance infrastructure. We provide advanced leak detection, master drain restoration, and precision emergency repair. Professional Quality Mastercraft."
+          image="https://images.unsplash.com/photo-1490151700639-6500772702f3?q=80&w=2669&auto=format&fit=crop"
+          overlayImage="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+          badge="CHARLOTTE MASTER PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <AlondraParkCopperPipeInfo />
+        <CharlottePlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
