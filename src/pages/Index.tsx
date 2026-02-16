@@ -15,8 +15,8 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>water leak detection fayetteville ar Location</title>
-        <meta name="description" content="water leak detection fayetteville ar Location - Specialized non-invasive water leak detection, acoustic diagnostics & thermal imaging in Fayetteville, AR. Call (877) 792-1410 for local experts." />
+        <title>water leak detection fayetteville ar</title>
+        <meta name="description" content="water leak detection fayetteville ar - Specialized non-invasive water leak detection, acoustic diagnostics & thermal imaging in Fayetteville, AR. Call (877) 792-1410 for local experts." />
         <meta name="keywords" content="water leak detection fayetteville ar, Fayetteville leak repair, pipe leak detection Fayetteville, acoustic water detection Washington County, non-invasive plumbing Arkansas" />
         <link rel="canonical" href="https://fayetteville-leak-pros.com/" />
 
@@ -108,7 +108,7 @@ const Index = () => {
         <Hero
           title={
             <>
-              water leak detection fayetteville ar Location
+              water leak detection fayetteville ar
               <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Fayetteville Leak Detection Pros</span>
             </>
           }
