@@ -7,19 +7,19 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency sewer repair in Lansing?",
-    answer: "Yes. Our Lansing teams are available 24/7 for technical main line diagnostics and localized restoration. We provide rapid support across Ingham County to stabilize your system and stop raw sewage backups."
+    question: "Do you offer emergency sewer repair in Fort Collins?",
+    answer: "Yes. Our Fort Collins teams are available 24/7 for technical main line diagnostics and localized restoration. We provide rapid support across Larimer County to stabilize your system and stop raw sewage backups."
   },
   {
-    question: "What is trenchless sewer repair for Lansing homes?",
+    question: "What is trenchless sewer repair for Fort Collins homes?",
     answer: "Trenchless repair, or CIPP lining, allows us to restore your sewer line without digging up your yard. We insert a resin-saturated liner into the existing pipe, which hardens into a durable, seamless new pipe."
   },
   {
-    question: "Are your technicians licensed for Michigan sewer projects?",
-    answer: "Absolutely. Our technicians are fully licensed master plumbers and sewer specialists who adhere strictly to Michigan building codes and Lansing municipal standards."
+    question: "Are your technicians licensed for Colorado sewer projects?",
+    answer: "Absolutely. Our technicians are fully licensed master plumbers and sewer specialists who adhere strictly to Colorado building codes and Fort Collins municipal standards."
   },
   {
-    question: "How long does a typical main line restoration in Lansing take?",
+    question: "How long does a typical main line restoration in Fort Collins take?",
     answer: "Most trenchless sewer restorations can be completed in a single day. Conventional excavation may take longer, but our team focuses on rapid, high-performance results to minimize disruption."
   }
 ];
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Lansing <span className="text-indigo-600">FAQ</span>
+            Fort Collins <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about sewer line repair and trenchless restoration in Lansing, Michigan.
+            Answers to common questions about sewer line repair and trenchless restoration in Fort Collins, Colorado.
           </p>
         </div>
 

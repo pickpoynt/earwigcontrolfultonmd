@@ -1,8 +1,8 @@
 import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, Locate, Search, Clock, Zap, Pipette } from "lucide-react";
 
-const LansingSewerRepairInfo = () => {
+const FortCollinsSewerRepairInfo = () => {
     return (
-        <section id="lansing-sewer-info" className="py-24 bg-white relative overflow-hidden">
+        <section id="fort-collins-sewer-info" className="py-24 bg-white relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541604193435-2258789965d8?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
@@ -11,13 +11,13 @@ const LansingSewerRepairInfo = () => {
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
                             <Locate className="w-4 h-4" />
-                            <span>Ingham County Sewer Specialists</span>
+                            <span>Larimer County Sewer Specialists</span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                            Advanced <span className="text-indigo-600">Sewer Line Repair</span> in Lansing
+                            Precision <span className="text-indigo-600">Sewer Line Repair</span> in Fort Collins
                         </h2>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed italic font-medium">
-                            Providing permanent solutions for Lansing's aging infrastructure. From trenchless pipe bursting to traditional main line excavation, we restore your home's waste management systems with clinical precision.
+                            Engineering permanent sewer solutions for Fort Collins property owners. From advanced trenchless pipe lining to technical main line excavations, we ensure Larimer County's wastewater infrastructure remains structurally sound and efficient.
                         </p>
                     </div>
 
@@ -28,7 +28,7 @@ const LansingSewerRepairInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <Construction className="w-7 h-7 text-indigo-600" />
-                                    Infrastructure Restoration
+                                    Northern Colorado Infrastructure
                                 </h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
@@ -36,9 +36,9 @@ const LansingSewerRepairInfo = () => {
                                             <Pipette className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Trenchless Pipe Lining</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">CIPP Trenchless Lining</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                We utilize Cured-In-Place Pipe (CIPP) technology to create a "pipe within a pipe," eliminating the need for destructive digging across your Lansing lawn or driveway.
+                                                Restore your sewer main without damaging your Northern Colorado landscaping. We utilize structural pipe lining that creates a seamless, root-proof barrier inside your existing lines.
                                             </p>
                                         </div>
                                     </div>
@@ -48,21 +48,21 @@ const LansingSewerRepairInfo = () => {
                                             <Droplets className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Hydro Jetting Services</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Technical Hydro-Scouring</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Scouring main lines with high-pressure water to clear invasive tree roots and calcified deposits that commonly plague Ingham County's older sewer systems.
+                                                Our high-pressure hydro jetting system eliminates heavy root intrusions and mineral scale buildup common in Larimer County's older sewer systems.
                                             </p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
                                         <div className="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
-                                            <ShieldCheck className="w-5 h-5 text-indigo-600" />
+                                            <Search className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Sewer Camera Inspections</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">HD Internal Diagnostics</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                High-definition fiber-optic diagnostics to visually confirm the exact location and nature of sewer line breaches or collapses before any work begins.
+                                                We provide precise internal sewer camera inspections to identify fissures, bellies, and joint failures before they cause extensive foundation or yard damage.
                                             </p>
                                         </div>
                                     </div>
@@ -75,21 +75,21 @@ const LansingSewerRepairInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <MapPin className="w-7 h-7 text-indigo-600" />
-                                    Lansing & Ingham County Service Area
+                                    Fort Collins & Larimer County Service Area
                                 </h3>
                                 <p className="text-slate-600 mb-6 leading-relaxed">
-                                    Providing rapid response and professional sewer restoration across the Greater Lansing area:
+                                    Providing rapid response and professional sewer restoration across Northern Colorado:
                                 </p>
                                 <div className="grid grid-cols-2 gap-3">
                                     {[
-                                        "East Lansing",
-                                        "Okemos",
-                                        "Haslett",
-                                        "Delta Township",
-                                        "Grand Ledge",
-                                        "Holt",
-                                        "Dewitt",
-                                        "Mason"
+                                        "Old Town",
+                                        "Loveland",
+                                        "Windsor",
+                                        "Timnath",
+                                        "Laporte",
+                                        "Wellington",
+                                        "Red Feather",
+                                        "Bellvue"
                                     ].map((area, index) => (
                                         <div key={index} className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-100 shadow-sm">
                                             <div className="w-2 h-2 rounded-full bg-indigo-500" />
@@ -107,24 +107,24 @@ const LansingSewerRepairInfo = () => {
                         <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
                             <div>
                                 <h3 className="text-3xl font-bold mb-4 uppercase tracking-tight flex items-center gap-3">
-                                    Sewer Emergency?
+                                    Sewer Main Collapse?
                                 </h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 italic">
-                                    Raw sewage backup? Multiple slow drains? Unexplained wet spots in your yard? Our Lansing emergency team provides 24/7 priority dispatching for sewer line failures.
+                                    If you're experiencing multiple line backups or discovering sinkholes in your yard, contact our Fort Collins emergency sewer engineering team immediately.
                                 </p>
                                 <div className="flex flex-wrap gap-4">
                                     <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Master Plumbers</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Michigan Local</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Warrantied Work</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Fort Collins Local</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">EPA Certified</div>
                                 </div>
                             </div>
                             <div className="bg-indigo-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform">
-                                <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">24/7 Sewer Hotline</p>
+                                <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">24/7 Priority Hotline</p>
                                 <a href="tel:8777921410" className="text-4xl font-bold transition-colors block mb-4">
                                     (877) 792-1410
                                 </a>
                                 <p className="text-indigo-100 text-sm italic">
-                                    Professional Inspections & Estimates
+                                    Expert Internal Sewer Diagnostics
                                 </p>
                             </div>
                         </div>
@@ -135,4 +135,4 @@ const LansingSewerRepairInfo = () => {
     );
 };
 
-export default LansingSewerRepairInfo;
+export default FortCollinsSewerRepairInfo;

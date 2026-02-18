@@ -6,7 +6,8 @@ const links = [
   { name: "Plumber San Francisco CA", url: "https://plumbersanfranciscoca.vercel.app/" },
   { name: "Plumber Charlotte NC", url: "https://plumbercharlottenc.vercel.app/" },
   { name: "Plumber Tulsa OK", url: "https://plumbertulsaok.vercel.app/" },
-  { name: "Plumber West Seneca NY", url: "https://plumberwestsenecany.vercel.app/" }
+  { name: "Plumber West Seneca NY", url: "https://plumberwestsenecany.vercel.app/" },
+  { name: "Sewer Line Repair Lansing MI", url: "https://sewerlinerepairlansingmi.vercel.app/" }
 ];
 
 const RandomLinks = () => {

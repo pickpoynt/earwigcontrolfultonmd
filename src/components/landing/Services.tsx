@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-indigo-600">Sewer Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Lansing property owners trust us for master-grade sewer line engineering and precision main line restoration. We provide specialized care for Ingham County.
+            Fort Collins property owners trust us for master-grade sewer line engineering and precision main line restoration. We provide specialized care for Larimer County.
           </p>
         </div>
 
@@ -18,7 +18,7 @@ const Services = () => {
             {
               icon: Zap,
               title: "Trenchless Repair",
-              description: "We utilize CIPP lining technology to restore sewer mains from the inside out, avoiding the need for deep excavation in Lansing neighborhoods.",
+              description: "We utilize CIPP lining technology to restore sewer mains from the inside out, avoiding the need for deep excavation in Fort Collins neighborhoods.",
               link: "#contact"
             },
             {
@@ -30,13 +30,13 @@ const Services = () => {
             {
               icon: Camera,
               title: "Digital Inspections",
-              description: "High-resolution sewer camera scans designed to identify structural fissures and root intrusions specifically in Lansing's cast iron systems.",
+              description: "High-resolution sewer camera scans designed to identify structural fissures and root intrusions specifically in Larimer County's older systems.",
               link: "#contact"
             },
             {
               icon: Waves,
               title: "Hydro Jetting",
-              description: "High-velocity water scouring to eliminate stubborn obstructions and industrial-scale root blockages in Ingham County main lines.",
+              description: "High-velocity water scouring to eliminate stubborn obstructions and industrial-scale root blockages in Fort Collins main lines.",
               link: "#contact"
             }
           ].map((service, index) => (
