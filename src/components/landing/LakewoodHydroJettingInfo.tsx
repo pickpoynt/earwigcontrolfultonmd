@@ -3,7 +3,7 @@ import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, 
 const LakewoodHydroJettingInfo = () => {
     return (
         <section id="lakewood-hydro-jetting-info" className="py-24 bg-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
+            <div className="absolute inset-0 bg-[url('/professional-hydro-jetting-lakewood-wa.jpeg')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-6xl mx-auto">
