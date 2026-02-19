@@ -115,7 +115,7 @@ const Index = () => {
           }
           subtitle="Turbeville's premier experts in master-grade electronic slab leak detection and foundation restoration. We design high-performance plumbing solutions tailored for the South Carolina Coastal Plain's shifting soil conditions, ensuring long-term structural integrity. Engineering excellence for Clarendon County."
           image="/ultra-realistic-photo-of-a-licensed-plumber-perfor.jpeg"
-          overlayImage="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?auto=format&fit=crop&q=80"
           badge="TURBEVILLE SLAB LEAK RESTORATION SPECIALISTS"
         />
         <Services />
@@ -132,11 +132,3 @@ const Index = () => {
 };
 
 export default Index;
-
-
-
-
-
-
-
-
