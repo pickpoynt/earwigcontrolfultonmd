@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            JACKSON DRAIN CLEANING PROS
+            KLAMATH FALLS DRAIN CLEANING PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Schedule <span className="text-indigo-600">drain cleaning jackson mi</span>
+            Schedule <span className="text-indigo-600">drain cleaning klamath falls</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Jackson property's plumbing health. Our Mid-Michigan team provides technical, non-invasive solutions for drain clearing and root management throughout Jackson County.
+            Protect your Klamath property's plumbing health. Our Southern Oregon team provides technical, non-invasive solutions for drain clearing and root management throughout Klamath County.
           </p>
 
           <div className="space-y-8">
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">MI STATE LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Jackson County Certified</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">OR STATE LICENSED</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Klamath County Certified</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Jackson & Mid-Michigan</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Klamath Falls & Southern Oregon</p>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Contact = () => {
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Required</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
                 <option>Drain Cleaning</option>
-                <option>Sewer Line Scouring</option>
+                <option>Line Scouring</option>
                 <option>Root Removal</option>
                 <option>Pipe Camera Inspection</option>
                 <option>Emergency Unclogging</option>
@@ -95,7 +95,7 @@ const Contact = () => {
               Get Quote Now
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *24/7 Priority response for Jackson area property emergencies
+              *24/7 Priority response for Klamath area property emergencies
             </p>
           </form>
         </div>

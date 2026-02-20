@@ -11,19 +11,19 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Jackson Drain Cleaning</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Klamath Falls Drain Cleaning</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Jackson's specialized technical drain cleaning experts. We provide professional unclogging, root removal, and line descaling across Jackson County.
+              Southern Oregon's specialized technical drain cleaning experts. We provide professional unclogging, root removal, and line scouring across the Klamath Basin.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Drain Unclogging", "Sewer Scouring", "Root Removal", "Main Line Cleaning"].map((item) => (
+              {["Drain Unclogging", "Basin Line Scouring", "Root Removal", "Main Line Cleaning"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  110 N Mechanic St<br />
-                  Jackson, MI 49201
+                  500 Main St<br />
+                  Klamath Falls, OR 97601
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Jackson Drain Cleaning Pros. All rights reserved. Jackson County Professional Technicians.
+            © {new Date().getFullYear()} Klamath Falls Drain Cleaning Pros. All rights reserved. Southern Oregon Professional Technicians.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Jackson Drain Cleaning Pros",
+          "name": "Klamath Falls Drain Cleaning Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "110 N Mechanic St",
-            "addressLocality": "Jackson",
-            "addressRegion": "MI",
-            "postalCode": "49201",
+            "streetAddress": "500 Main St",
+            "addressLocality": "Klamath Falls",
+            "addressRegion": "OR",
+            "postalCode": "97601",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "42.2459",
-            "longitude": "-84.4013"
+            "latitude": "42.2249",
+            "longitude": "-121.7817"
           },
           "telephone": "+18777921410",
-          "url": "https://jacksondraincleaningpros.com/"
+          "url": "https://klamathfallsdraincleaningpros.com/"
         })}
       </script>
     </footer>

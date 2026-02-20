@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const links = [
   { text: "Eugene Drain Cleaning", url: "https://draincleaningeugene.vercel.app/", internal: false },
+  { text: "Jackson MI Drain Cleaning", url: "https://draincleaningjacksonmi.vercel.app/", internal: false },
   { text: "San Francisco CA Plumbers", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },
   { text: "Charlotte NC Plumbing Team", url: "https://plumbercharlottenc.vercel.app/", internal: false },
-  { text: "Fort Collins Sewer Repair", url: "https://sewerlinerepairfortcollins.vercel.app/", internal: false },
 ];
 
 const RandomLinks = () => {

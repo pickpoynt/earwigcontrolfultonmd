@@ -12,10 +12,10 @@ const WhyUs = () => {
               <span>Technical Excellence</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Why Jackson Trusts <span className="text-indigo-600">Our Drain Experts</span>
+              Why Klamath Falls Trusts <span className="text-indigo-600">Our Drain Experts</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-bold italic">
-              When simple snaking isn't enough, our technical drain cleaning jackson mi provides the definitive solution for Mid-Michigan residential and commercial properties.
+              When simple snaking isn't enough, our technical drain cleaning klamath falls provides the definitive solution for Basin residential and commercial properties.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-8">
@@ -27,8 +27,8 @@ const WhyUs = () => {
                 },
                 {
                   icon: Locate,
-                  title: "Jackson Local",
-                  description: "Based right here in Jackson, Michigan, to provide rapid response for local drainage emergencies."
+                  title: "Klamath Local",
+                  description: "Based right here in Klamath Falls, Oregon, to provide rapid response for local drainage emergencies."
                 },
                 {
                   icon: ClipboardCheck,
@@ -37,8 +37,8 @@ const WhyUs = () => {
                 },
                 {
                   icon: MapPin,
-                  title: "Mid-Michigan Coverage",
-                  description: "Full-service coverage across Jackson County and the surrounding Michigan Center area."
+                  title: "Basin Coverage",
+                  description: "Full-service coverage across Klamath County and the surrounding Upper Klamath Lake area."
                 }
               ].map((feature, index) => (
                 <div key={index} className="space-y-3">
@@ -55,15 +55,15 @@ const WhyUs = () => {
           <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
               <img
-                src="/2.jpeg"
-                alt="Jackson Drain Cleaning Equipment"
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
+                alt="Klamath Falls Drain Cleaning Equipment"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
             </div>
 
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
-                src="/3.jpeg"
+                src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80"
                 alt="Professional Technician On Site"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
@@ -72,7 +72,7 @@ const WhyUs = () => {
                 <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Drain Blocked?</p>
                 <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Precision Recovery</h4>
                 <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
-                  <a href="tel:8777921410">Call Jackson Team</a>
+                  <a href="tel:8777921410">Call Klamath Team</a>
                 </Button>
               </div>
             </div>

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import JacksonDrainCleaningInfo from "@/components/landing/JacksonDrainCleaningInfo";
+import KlamathFallsDrainCleaningInfo from "@/components/landing/KlamathFallsDrainCleaningInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -15,33 +15,33 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>drain cleaning jackson mi - Jackson Drain Cleaning Pros</title>
-        <meta name="description" content="drain cleaning jackson mi - Professional high-tech drain cleaning jackson mi. Expert plumbers clearing blockages in Jackson, MI. Call 877-792-1410 for 24/7 service." />
-        <meta name="keywords" content="drain cleaning jackson mi, Jackson plumber, drain clearing Jackson County, sewer service MI, root removal Jackson" />
-        <link rel="canonical" href="https://jacksondraincleaningpros.com/" />
+        <title>drain cleaning klamath falls - Klamath Falls Drain Cleaning Pros</title>
+        <meta name="description" content="drain cleaning klamath falls - Professional high-tech drain cleaning klamath falls. Expert plumbers clearing blockages in Klamath Falls, OR. Call 877-792-1410 for 24/7 service." />
+        <meta name="keywords" content="drain cleaning klamath falls, Klamath Falls plumber, drain clearing Klamath County, sewer service OR, root removal Klamath Falls" />
+        <link rel="canonical" href="https://klamathfallsdraincleaningpros.com/" />
 
         {/* Structured Data Schemas */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Jackson Drain Cleaning Pros",
-            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
-            "@id": "https://jacksondraincleaningpros.com/",
-            "url": "https://jacksondraincleaningpros.com/",
+            "name": "Klamath Falls Drain Cleaning Pros",
+            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80",
+            "@id": "https://klamathfallsdraincleaningpros.com/",
+            "url": "https://klamathfallsdraincleaningpros.com/",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "110 N Mechanic St",
-              "addressLocality": "Jackson",
-              "addressRegion": "MI",
-              "postalCode": "49201",
+              "streetAddress": "500 Main St",
+              "addressLocality": "Klamath Falls",
+              "addressRegion": "OR",
+              "postalCode": "97601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "42.2459",
-              "longitude": "-84.4013"
+              "latitude": "42.2249",
+              "longitude": "-121.7817"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -68,11 +68,11 @@ const Index = () => {
             "serviceType": "Drain Cleaning Service",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Jackson Drain Cleaning Pros"
+              "name": "Klamath Falls Drain Cleaning Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Jackson, MI"
+              "name": "Klamath Falls, OR"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -105,11 +105,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="drain cleaning jackson mi - Jackson Drain Cleaning Pros" />
-        <meta property="og:description" content="drain cleaning jackson mi - Expert professional drain cleaning jackson mi. High-tech solutions for local homeowners." />
+        <meta property="og:title" content="drain cleaning klamath falls - Klamath Falls Drain Cleaning Pros" />
+        <meta property="og:description" content="drain cleaning klamath falls - Expert professional drain cleaning klamath falls. High-tech solutions for local homeowners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://jacksondraincleaningpros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://klamathfallsdraincleaningpros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -118,17 +118,17 @@ const Index = () => {
           title={
             <>
               drain cleaning <br />
-              <span className="text-white drop-shadow-sm">jackson mi</span>
+              <span className="text-white drop-shadow-sm">klamath falls</span>
             </>
           }
-          subtitle="Jackson's industrial-grade drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout Mid-Michigan's residential networks."
-          image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&q=80"
-          badge="JACKSON COUNTY DRAINAGE SPECIALISTS"
+          subtitle="Southern Oregon's mountain-grade drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout the Klamath Basin's unique environments."
+          image="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80"
+          badge="KLAMATH BASIN DRAINAGE SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <JacksonDrainCleaningInfo />
+        <KlamathFallsDrainCleaningInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

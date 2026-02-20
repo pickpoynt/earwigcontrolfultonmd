@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Advanced <span className="text-indigo-600">drain cleaning jackson mi</span>
+            Advanced <span className="text-indigo-600">drain cleaning klamath falls</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Jackson property owners trust us for technical precision and high-torque drain clearing. We conquer the toughest Mid-Michigan blockages.
+            Klamath property owners trust us for mountain-grade technical precision and high-torque drain clearing. We conquer the toughest Southern Oregon blockages.
           </p>
         </div>
 
@@ -18,25 +18,25 @@ const Services = () => {
             {
               icon: Zap,
               title: "Drain Unclogging",
-              description: "High-torque mechanical clearing that completely removes blockages from kitchen sinks, toilets, and showers in Jackson homes.",
+              description: "High-torque mechanical clearing that completely removes blockages from kitchen sinks, toilets, and showers in Klamath Falls homes.",
               link: "#contact"
             },
             {
               icon: Search,
-              title: "Sewer Scouring",
-              description: "Precision line descaling that restores full-diameter flow to your main sewer lines, preventing messy backups and slow drains.",
+              title: "Basin Line Scouring",
+              description: "Precision line descaling that restores full-diameter flow to your main sewer lines, preventing messy backups in Klamath soil.",
               link: "#contact"
             },
             {
               icon: Drill,
               title: "Root Clearing",
-              description: "Technical mechanical root removal that eliminates invasive tree roots from your sewer network without the need for excavation.",
+              description: "Technical mechanical root removal that eliminates invasive mountain roots from your sewer network without excavation.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Technical Inspection",
-              description: "High-definition camera diagnostics to pinpoint the exact location of clogs and verify that your Jackson pipes are perfectly clean.",
+              title: "Basin Inspection",
+              description: "High-definition camera diagnostics to pinpoint the exact location of clogs and verify that your Klamath pipes are perfectly clean.",
               link: "#contact"
             }
           ].map((service, index) => (
