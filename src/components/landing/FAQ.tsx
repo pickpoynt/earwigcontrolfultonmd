@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Are earwigs dangerous to my family or home?",
-    answer: "Earwigs are not directly dangerous to humans, but large infestations indicate moisture problems and can cause significant damage to garden plants, seedlings, and indoor fabrics. Their pinchers can cause minor skin irritation. Our earwig exterminator denver team eliminates them before colonies grow."
+    question: "Are Hawaiian centipedes dangerous to my family?",
+    answer: "Yes — Hawaii is home to the Scolopendra subspinipes, one of the world's most venomous centipedes. Their bites cause intense pain, swelling, and can trigger allergic reactions. Small children and pets are most at risk. Our centipede repellent hawaii team eliminates them before anyone gets stung."
   },
   {
-    question: "How quickly can you respond to an earwig infestation in Denver?",
-    answer: "We offer same-day service for active earwig infestations across Denver, CO and surrounding areas including Aurora, Lakewood, Thornton, and Arvada. Call (323) 880-1224 and we'll dispatch immediately."
+    question: "How quickly can you respond to a centipede problem in Hawaii?",
+    answer: "We offer same-day service for active centipede issues across Hawaii, including Oahu, Maui, the Big Island, and Kauai. Call (323) 880-1224 and we'll dispatch immediately to protect your household."
   },
   {
-    question: "Why do I keep getting earwigs inside my Denver home?",
-    answer: "Denver's Front Range climate — with winter cold driving insects indoors — plus over-mulched garden beds, poor drainage, and foundation moisture create ideal earwig breeding zones. Our earwig exterminator denver specialists identify and treat all root causes, not just the visible bugs."
+    question: "Why do I keep finding centipedes inside my Hawaii home?",
+    answer: "Hawaii's warm, humid tropical climate is paradise for centipedes year-round. Dense vegetation, rock walls, mulched garden beds, and moisture-rich spaces near foundations invite centipedes indoors. Our centipede repellent hawaii specialists identify all entry points and root causes — not just the visible bugs."
   },
   {
-    question: "What earwig treatments do you use and are they safe for pets and children?",
-    answer: "We use Colorado-approved, EPA-registered pest control products with targeted crack-and-crevice application. We offer pet-safe and family-friendly formulations. Our technicians always brief you on any precautions before treatment begins."
+    question: "What centipede repellent treatments do you use and are they safe?",
+    answer: "We use Hawaii-approved, EPA-registered pest control products with targeted application methods that are safe for families, pets, and Hawaii's unique ecosystem. Our technicians use eco-smart IPM techniques and will brief you on any precautions before treatment begins."
   },
   {
-    question: "Do you offer a guarantee on your earwig extermination services?",
-    answer: "Yes. We stand behind our work with a satisfaction guarantee. If earwigs return within the treatment period, we re-treat at no additional charge. Denver homeowners count on us for long-lasting results."
+    question: "Do you offer a guarantee on your centipede repellent services?",
+    answer: "Yes. We stand behind our work with a satisfaction guarantee. If centipedes return within the treatment period, we re-treat at no additional charge. Hawaii homeowners count on us for long-lasting, island-proven results."
   }
 ];
 
@@ -33,12 +33,12 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Earwig Expert Answers</span>
+          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Centipede Expert Answers</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Earwig Exterminator Denver <span className="text-indigo-600">FAQ</span>
+            Centipede Repellent Hawaii <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Key answers for Denver property owners dealing with earwig problems.
+            Key answers for Hawaii property owners dealing with dangerous centipede problems.
           </p>
         </div>
 

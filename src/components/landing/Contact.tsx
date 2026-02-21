@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            DENVER EARWIG EXTERMINATOR PROS
+            HAWAII CENTIPEDE REPELLENT PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Deploy <span className="text-indigo-600">earwig exterminator denver</span>
+            Deploy <span className="text-indigo-600">centipede repellent hawaii</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Denver home from earwig invasions. Our licensed pest control team provides same-day elimination, full perimeter barriers, and long-term prevention across Denver, CO.
+            Protect your Hawaii home from dangerous centipede invasions. Our licensed pest control team provides same-day elimination, full perimeter repellent barriers, and long-term prevention across all Hawaiian islands.
           </p>
 
           <div className="space-y-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">EARWIG CONTROL HOTLINE</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">CENTIPEDE CONTROL HOTLINE</p>
                 <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors uppercase tracking-tight">
                   (323) 880-1224
                 </a>
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">STATE LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Colorado Licensed Pest Control Specialists</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Hawaii Licensed Pest Control Specialists</p>
               </div>
             </div>
 
@@ -46,8 +46,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Denver Earwig Exterminator Pros</p>
-                <p className="text-slate-500 font-medium text-sm">1600 Glenarm Pl, Denver, CO 80202</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Hawaii Centipede Repellent Pros</p>
+                <p className="text-slate-500 font-medium text-sm">1000 Bishop St, Honolulu, HI 96813</p>
                 <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                   Want to replace this phone number with your own business line? We offer exclusive lead routing placement for only <strong>$19 a month</strong>.
                 </p>
                 <a
-                  href="mailto:bankonmanish@gmail.com?subject=Phone Replacement Inquiry - Denver Earwig Exterminator"
+                  href="mailto:bankonmanish@gmail.com?subject=Phone Replacement Inquiry - Hawaii Centipede Repellent"
                   className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs transition-all hover:gap-3"
                 >
                   <Mail className="w-4 h-4" />
@@ -93,22 +93,22 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                <option>Active Earwig Infestation (Emergency)</option>
-                <option>Perimeter Barrier Treatment</option>
-                <option>Indoor Earwig Elimination</option>
+                <option>Active Centipede Infestation (Emergency)</option>
+                <option>Perimeter Repellent Barrier Treatment</option>
+                <option>Indoor Centipede Elimination</option>
                 <option>Moisture Zone Control</option>
                 <option>Preventive Exclusion Treatment</option>
               </select>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Situation Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe where you're seeing earwigs and how many..."></textarea>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe where you're seeing centipedes and how frequently..."></textarea>
             </div>
             <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
               Request Same-Day Service
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Same-day service available across Denver Metro, Aurora, Lakewood & Thornton
+              *Same-day service available across Oahu, Maui, Big Island & Kauai
             </p>
           </form>
         </div>

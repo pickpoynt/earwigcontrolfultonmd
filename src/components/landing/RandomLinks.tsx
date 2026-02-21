@@ -1,8 +1,8 @@
 const links = [
-  { text: "Eugene Drain Cleaning", url: "https://draincleaningeugene.vercel.app/" },
-  { text: "Jackson MI Drain Cleaning", url: "https://draincleaningjacksonmi.vercel.app/" },
-  { text: "San Francisco CA Plumbers", url: "https://plumbersanfranciscoca.vercel.app/" },
-  { text: "Charlotte NC Plumbing Team", url: "https://plumbercharlottenc.vercel.app/" },
+  { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
+  { text: "Denver Earwig Control Specialists", url: "https://earwigexterminatordenver.vercel.app/" },
+  { text: "Earwig Removal & Pest Control Denver CO", url: "https://earwigexterminatordenver.vercel.app/" },
+  { text: "Professional Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
 ];
 
 const RandomLinks = () => {

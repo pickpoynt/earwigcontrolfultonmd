@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">earwig exterminator denver</span>
+            Expert <span className="text-indigo-600">centipede repellent hawaii</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Denver homeowners trust us for precision earwig elimination, inside-out perimeter defense, and long-lasting protection. We target earwig harborage zones others miss.
+            Hawaii homeowners trust us for precision centipede repellent application, inside-out perimeter defense, and long-lasting protection. We target centipede harborage zones others miss — including the highly venomous Hawaiian giant centipede.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "Earwig Inspection",
-              description: "Comprehensive inspection of all earwig harborage zones — mulch beds, garden edges, foundation cracks, crawl spaces, and damp basements across your Denver property.",
+              title: "Centipede Inspection",
+              description: "Comprehensive inspection of all centipede harborage zones — rock walls, dense vegetation, garden beds, foundation gaps, and dark damp areas around your Hawaii property.",
             },
             {
               icon: ShieldCheck,
-              title: "Perimeter Barrier Treatment",
-              description: "Professional-grade residual barrier treatments applied to your home's foundation, door frames, and window sills — creating an invisible shield earwigs cannot cross.",
+              title: "Perimeter Repellent Barrier",
+              description: "Professional-grade residual repellent barrier treatments applied around your home's full foundation, entry points, and entry cracks — creating an invisible shield centipedes cannot cross.",
             },
             {
               icon: Bug,
-              title: "Indoor Earwig Elimination",
-              description: "Targeted crack-and-crevice treatments to flush and eliminate earwigs that have already invaded kitchens, bathrooms, and basements of your Denver home.",
+              title: "Indoor Centipede Elimination",
+              description: "Targeted crack-and-crevice treatments to flush and eliminate centipedes that have already invaded bathrooms, bedrooms, and living areas of your Hawaii home.",
             },
             {
               icon: Droplets,
               title: "Moisture Zone Control",
-              description: "Earwigs breed in damp conditions. We identify and treat high-moisture zones around your Denver property to remove the root cause of recurring infestations.",
+              description: "Centipedes thrive in humid Hawaii conditions. We identify and treat high-moisture zones around your property to remove the root cause of recurring centipede infestations.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">

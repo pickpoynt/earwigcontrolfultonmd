@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import EarwigExterminatorDenverInfo from "@/components/landing/EarwigExterminatorDenverInfo";
+import CentipedeRepellentHawaiiInfo from "@/components/landing/CentipedeRepellentHawaiiInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>earwig exterminator denver - Denver Earwig Exterminator Pros</title>
-        <meta name="description" content="earwig exterminator denver - Professional earwig exterminator denver. Licensed pest specialists deploy proven earwig elimination, barrier treatments, and full home protection across Denver, CO. Call (323) 880-1224 for 24/7 same-day service." />
-        <meta name="keywords" content="earwig exterminator denver, denver earwig removal, earwig control denver CO, pest control denver earwig" />
-        <link rel="canonical" href="https://earwigexterminatordenver.com/" />
+        <title>centipede repellent hawaii - Hawaii Centipede Repellent Pros</title>
+        <meta name="description" content="centipede repellent hawaii - Professional centipede repellent hawaii. Licensed pest specialists deploy proven centipede repellent treatments, perimeter barriers, and full home protection across Hawaii. Call (323) 880-1224 for 24/7 same-day service." />
+        <meta name="keywords" content="centipede repellent hawaii, hawaii centipede control, centipede treatment hawaii, pest control hawaii centipede" />
+        <link rel="canonical" href="https://centipederepellenthawaii.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Denver Earwig Exterminator Pros",
+            "name": "Hawaii Centipede Repellent Pros",
             "image": "/1.jpeg",
-            "@id": "https://earwigexterminatordenver.com/",
-            "url": "https://earwigexterminatordenver.com/",
+            "@id": "https://centipederepellenthawaii.com/",
+            "url": "https://centipederepellenthawaii.com/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "1600 Glenarm Pl",
-              "addressLocality": "Denver",
-              "addressRegion": "CO",
-              "postalCode": "80202",
+              "streetAddress": "1000 Bishop St",
+              "addressLocality": "Honolulu",
+              "addressRegion": "HI",
+              "postalCode": "96813",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.7392",
-              "longitude": "-104.9903"
+              "latitude": "21.3069",
+              "longitude": "-157.8583"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Earwig Extermination",
+            "serviceType": "Centipede Repellent Treatment",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Denver Earwig Exterminator Pros"
+              "name": "Hawaii Centipede Repellent Pros"
             },
             "areaServed": {
-              "@type": "City",
-              "name": "Denver, CO"
+              "@type": "State",
+              "name": "Hawaii"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Earwig Exterminator Denver Services",
+              "name": "Centipede Repellent Hawaii Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Earwig Inspection & Identification" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Barrier Treatment" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Earwig Elimination" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Centipede Inspection & Identification" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Repellent Barrier Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Centipede Elimination" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="earwig exterminator denver - Denver Earwig Exterminator Pros" />
-        <meta property="og:description" content="earwig exterminator denver - Licensed Denver pest specialists. Same-day earwig elimination, perimeter treatments, and full home protection across Denver, CO." />
+        <meta property="og:title" content="centipede repellent hawaii - Hawaii Centipede Repellent Pros" />
+        <meta property="og:description" content="centipede repellent hawaii - Licensed Hawaii pest specialists. Same-day centipede repellent treatments, perimeter barriers, and full home protection across Hawaii." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://earwigexterminatordenver.com/" />
+        <meta property="og:url" content="https://centipederepellenthawaii.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              earwig exterminator <br />
-              <span className="text-white drop-shadow-sm uppercase">denver</span>
+              centipede repellent <br />
+              <span className="text-white drop-shadow-sm uppercase">hawaii</span>
             </>
           }
-          subtitle="Denver's most trusted earwig elimination specialists. We deploy targeted perimeter barrier treatments, deep-crack injections, and moisture-zone exclusion to protect your home from earwig invasions — fast."
+          subtitle="Hawaii's most trusted centipede repellent specialists. We deploy targeted perimeter barrier treatments, deep-crack exclusion applications, and moisture-zone management to protect your Hawaii home from dangerous centipede invasions — fast."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="DENVER EARWIG CONTROL ELITE"
+          badge="HAWAII CENTIPEDE CONTROL ELITE"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <EarwigExterminatorDenverInfo />
+        <CentipedeRepellentHawaiiInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

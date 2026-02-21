@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-indigo-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Denver Earwig</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Exterminator Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Hawaii Centipede</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Repellent Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Denver's earwig control experts. We provide targeted earwig extermination, perimeter barrier treatments, and full home protection throughout Denver, CO and the Front Range.
+              Hawaii's centipede repellent experts. We provide targeted centipede elimination, perimeter barrier treatments, and full home protection throughout Hawaii — Oahu, Maui, Big Island, and Kauai.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Earwig Inspection", "Perimeter Barrier Treatment", "Indoor Elimination", "Moisture Zone Control", "Preventive Exclusion"].map((item) => (
+              {["Centipede Inspection", "Perimeter Repellent Barrier", "Indoor Elimination", "Moisture Zone Control", "Preventive Exclusion"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -54,9 +54,9 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-indigo-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Denver Earwig Exterminator Pros<br />
-                  1600 Glenarm Pl<br />
-                  Denver, CO 80202
+                  Hawaii Centipede Repellent Pros<br />
+                  1000 Bishop St<br />
+                  Honolulu, HI 96813
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Denver Earwig Exterminator Pros. All rights reserved. Professional Earwig Pest Control Denver, CO.
+            © {new Date().getFullYear()} Hawaii Centipede Repellent Pros. All rights reserved. Professional Centipede Repellent Hawaii.
           </p>
         </div>
       </div>
