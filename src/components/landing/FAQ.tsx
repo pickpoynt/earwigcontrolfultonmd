@@ -2,20 +2,20 @@ import { HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
-    question: "What are the signs that my Metropolis home needs cricket extermination?",
-    answer: "Common signs include hearing constant, loud chirping from walls, basements, or crawl spaces, especially at night. You may also find irregular holes in fabrics (curtains, clothing, rugs) and see small, black, grain-like fecal matter in damp areas of your home. If you see multiple crickets daily, a professional cricket extermination Metropolis Illinois service is highly recommended."
+    question: "How do I know if I have a coyote problem in McCook?",
+    answer: "Regular group howling, sightings of coyotes near property lines during the day, or evidence of livestock distress/injury are primary indicators. You may also find livestock losses that occur during the night. If coyotes are shadowing you or your pets while walking, it's a critical sign of habituation that requires immediate coyote control McCook NE intervention."
   },
   {
-    question: "Can crickets actually damage my property?",
-    answer: "Yes. House crickets are necrophagous but also feed on fabrics, particularly those soiled with food or perspiration. They can chew through large areas of wool, cotton, silk, and even synthetic materials, causing permanent damage to your wardrobe and home furnishings."
+    question: "Are your coyote control methods humane?",
+    answer: "Yes. We prioritize humane, non-lethal hazing and exclusion methods whenever possible. When removal is necessary, we follow all Nebraska Game and Parks Commission regulations and use humane, professional wildlife management techniques to ensure the most ethical outcome."
   },
   {
-    question: "Are the treatments safe for my family and pets in Metropolis?",
-    answer: "Absolutely. We use clinical-grade, eco-targeted solutions that specifically target the biology of insects like crickets. Our methods are designed to be applied strategically to nesting and entry points, ensuring maximum effectiveness with minimal environmental footprint."
+    question: "Can you protect my pets from residential coyotes?",
+    answer: "Absolutely. Residential coyote issues in McCook are often caused by accessible food sources and lack of pet security. We provide property audits to identify attractants and consult on pet-safe enclosures and hazing tools to keep the coyotes away from your family home."
   },
   {
-    question: "How long does a cricket extermination treatment last?",
-    answer: "Our professional treatments include both immediate knock-down and long-lasting barrier protection. We also provide exclusion services to seal your home, which typically provides protection for an entire season or longer, depending on the environmental conditions in your part of Metropolis."
+    question: "Do you provide emergency response for livestock attacks?",
+    answer: "Yes, we are available 24/7 for emergency predator mitigation. If you are experiencing an active threat to your livestock in McCook or Red Willow County, call us immediately for rapid thermal tracking and intervention."
   }
 ];
 
@@ -36,10 +36,10 @@ const FAQ = () => {
             Common Questions
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            cricket extermination Metropolis Illinois <span className="text-indigo-600">FAQ</span>
+            coyote control McCook NE <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Essential information for Metropolis property owners regarding cricket detection, property damage prevention, and extermination methods.
+            Essential information for McCook ranchers and property owners regarding predator behavior, livestock safety, and ethical control methods.
           </p>
         </div>
 

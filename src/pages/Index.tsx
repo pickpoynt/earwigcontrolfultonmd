@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import MetropolisCricketInfo from "@/components/landing/MetropolisCricketInfo";
+import McCookCoyoteInfo from "@/components/landing/McCookCoyoteInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>cricket extermination Metropolis Illinois - Metropolis Cricket Control Pros</title>
-        <meta name="description" content="cricket extermination Metropolis Illinois - Professional cricket extermination in Metropolis, IL. Licensed specialists providing rapid removal of crickets and long-term protection." />
-        <meta name="keywords" content="cricket extermination Metropolis Illinois, cricket removal Metropolis IL, house cricket control Metropolis, field cricket exterminator Metropolis IL, pest control Metropolis IL" />
-        <link rel="canonical" href="https://cricketexterminationmetropolisillinois.vercel.app/" />
+        <title>coyote control McCook NE - McCook Coyote Control Pros</title>
+        <meta name="description" content="coyote control McCook NE - Professional coyote control and livestock protection in McCook. Specialized wildlife experts providing humane removal and property securing." />
+        <meta name="keywords" content="coyote control McCook NE, coyote removal McCook, livestock protection McCook, ranch predator control Red Willow County, wildlife management McCook NE" />
+        <link rel="canonical" href="https://coyotecontrolmccookne.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Metropolis Cricket Control Pros",
+            "name": "McCook Coyote Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://cricketexterminationmetropolisillinois.vercel.app/",
-            "url": "https://cricketexterminationmetropolisillinois.vercel.app/",
+            "@id": "https://coyotecontrolmccookne.vercel.app/",
+            "url": "https://coyotecontrolmccookne.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "100 Ferry St",
-              "addressLocality": "Metropolis",
-              "addressRegion": "IL",
-              "postalCode": "62960",
+              "streetAddress": "302 Norris Ave",
+              "addressLocality": "McCook",
+              "addressRegion": "NE",
+              "postalCode": "69001",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "37.1512",
-              "longitude": "-88.7320"
+              "latitude": "40.2019",
+              "longitude": "-100.6257"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Cricket Extermination & Protection",
+            "serviceType": "Coyote Control & Predator Mitigation",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Metropolis Cricket Control Pros"
+              "name": "McCook Coyote Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Metropolis, IL"
+              "name": "McCook, NE"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Cricket Control Services",
+              "name": "Coyote Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Cricket Extermination" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Cricket Barriers" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fabric Protection Treatments" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Livestock Predator Defense" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Coyote Removal" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal Wildlife Monitoring" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="cricket extermination Metropolis Illinois - Metropolis Cricket Control Pros" />
-        <meta property="og:description" content="cricket extermination Metropolis Illinois - Expert cricket removal and protection services in Metropolis, IL." />
+        <meta property="og:title" content="coyote control McCook NE - McCook Coyote Control Pros" />
+        <meta property="og:description" content="coyote control McCook NE - Expert coyote removal and livestock protection services in McCook, NE." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://cricketexterminationmetropolisillinois.vercel.app/" />
+        <meta property="og:url" content="https://coyotecontrolmccookne.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              cricket extermination <br />
-              <span className="text-white drop-shadow-sm uppercase">Metropolis Illinois</span>
+              coyote control <br />
+              <span className="text-white drop-shadow-sm uppercase">McCook NE</span>
             </>
           }
-          subtitle="Metropolis's specialized experts in rapid cricket extermination and long-term property protection. We eliminate noisey house crickets and destructive field crickets to safeguard your home's peace and your valuable fabrics. Licensed and ready 24/7."
+          subtitle="McCook's specialized experts in professional coyote control and livestock asset protection. We provide rapid-response predator mitigation, thermal tracking, and property securing to safeguard your ranch and family from aggressive coyotes. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="METROPOLIS CRICKET ELITE"
+          badge="MCCOOK COYOTE PROS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <MetropolisCricketInfo />
+        <McCookCoyoteInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

@@ -8,24 +8,32 @@ const links = [
 ];
 
 const RandomLinks = () => {
+  // Take 4 links as requested
+  const selectedLinks = links.slice(0, 4);
+
   return (
-    <section className="py-12 bg-slate-50 border-t border-slate-200">
+    <div className="py-24 bg-white border-t border-slate-100">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
-          {links.map((link, index) => (
-            <a
-              key={index}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-400 hover:text-indigo-600 transition-colors text-sm font-medium uppercase tracking-widest"
-            >
-              {link.text}
-            </a>
-          ))}
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-xl font-bold text-slate-900 mb-8 uppercase tracking-widest text-center">
+            Regional Wildlife Partners
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {selectedLinks.map((link, index) => (
+              <a
+                key={index}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-4 rounded-xl bg-slate-50 border border-slate-100 text-slate-600 font-bold text-xs uppercase tracking-widest text-center hover:bg-indigo-50 hover:text-indigo-600 hover:border-indigo-200 transition-all"
+              >
+                {link.text}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

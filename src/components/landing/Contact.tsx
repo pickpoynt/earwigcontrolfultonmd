@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            METROPOLIS CRICKET PROS
+            MCCOOK COYOTE PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Protect <span className="text-indigo-600">cricket extermination Metropolis Illinois</span>
+            Secure Your Property <span className="text-indigo-600">coyote control McCook NE</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Restore your property's peace and protect your fabrics with our specialized cricket removal services. From foundation exclusion to localized metabolic treatments, our licensed Illinois specialists are available across Metropolis and Massac County.
+            Restore safety to your ranch and home with our professional coyote mitigation services. From thermal patrol to property hardening, our certified specialists are ready to protect McCook and Red Willow County.
           </p>
 
           <div className="space-y-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">CRICKET HOTLINE</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">PREDATOR HOTLINE</p>
                 <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors uppercase tracking-tight">
                   (323) 880-1224
                 </a>
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">STATE LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Illinois Structural Pest Specialist</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">CERTIFIED WILDLIFE</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Nebraska Damage Control Specialist</p>
               </div>
             </div>
 
@@ -46,8 +46,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Metropolis Cricket Control Pros</p>
-                <p className="text-slate-500 font-medium text-sm">100 Ferry St, Metropolis, IL 62960</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">McCook Coyote Control Pros</p>
+                <p className="text-slate-500 font-medium text-sm">302 Norris Ave, McCook, NE 69001</p>
                 <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
               </div>
             </div>
@@ -55,12 +55,12 @@ const Contact = () => {
         </div>
 
         <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
-          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Removal</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Mitigation</h3>
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Name</label>
-                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Property Owner" />
+                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Property Manager" />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Phone</label>
@@ -68,18 +68,18 @@ const Contact = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
+              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Mitigation Type</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                <option>Complete Cricket Extermination</option>
-                <option>Perimeter Barrier Treatment</option>
-                <option>Indoor Nesting Removal</option>
-                <option>Foundation Sealing / Exclusion</option>
-                <option>Annual Protection Program</option>
+                <option>Livestock Asset Protection</option>
+                <option>Residential Predator Removal</option>
+                <option>Nocturnal Thermal Tracking</option>
+                <option>Property Hardening / Fencing</option>
+                <option>Annual Wildlife Management</option>
               </select>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Situation Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe the chirping noise or any fabric damage found..."></textarea>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe the predator behavior or any loss events..."></textarea>
             </div>
             <div className="space-y-4">
               <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
@@ -88,13 +88,13 @@ const Contact = () => {
               <div className="pt-4 border-t border-slate-100">
                 <p className="text-slate-500 text-xs text-center mb-2 font-bold uppercase tracking-widest">Leasing Opportunity</p>
                 <p className="text-slate-600 text-[10px] text-center italic leading-tight">
-                  Are you a local Metropolis pest specialist? Replace this phone number with yours for only $19/month.
-                  <a href="mailto:bankonmanish@gmail.com" className="text-indigo-600 font-bold ml-1">Email bankonmanish@gmail.com</a>
+                  Are you a local Nebraska wildlife specialist? Replace this phone number with yours for only $19/month.
+                  <a href="mailto:leasemynumber@gmail.com" className="text-indigo-600 font-bold ml-1">Email leasemynumber@gmail.com</a>
                 </p>
               </div>
             </div>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Same-day service available across Metropolis, Brookport, and Joppa.
+              *24/7 Emergency Response across McCook, Indianola, and Culbertson.
             </p>
           </form>
         </div>

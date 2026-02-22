@@ -9,21 +9,21 @@ const WhyUs = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
               <ShieldCheck className="w-4 h-4" />
-              <span>Metropolis Cricket Control Excellence</span>
+              <span>McCook Coyote Control Excellence</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Why Metropolis Trusts <span className="text-indigo-600">Our Cricket Pros</span>
+              Why Red Willow County Trusts <span className="text-indigo-600">Our Predator Pros</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-bold italic">
-              When crickets invade your home and threaten your garment collection, our licensed extermination specialists provide the comprehensive solutions Metropolis owners rely on.
+              When coyotes threaten your livestock and pets, our certified wildlife specialists provide the rugged and reliable solutions McCook owners depend on.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-8">
               {[
-                { icon: Activity, title: "Same-Day Response", description: "We dispatch same-day for urgent cricket infestations in Metropolis and local Massac County areas — stopping the noise before it spreads." },
-                { icon: Locate, title: "Metropolis Local", description: "Stationed locally near Ferry St for rapid response anywhere in the city — from the Superman Square to Brookport and Joppa." },
-                { icon: ClipboardCheck, title: "Licensed Specialists", description: "Our technicians are Illinois state-licensed pest control professionals following strict ecological safety and extermination protocols." },
-                { icon: Sparkles, title: "Precision Shield", description: "We use clinical-grade metabolic regulators and barrier methods that prioritize family safety while ensuring total cricket elimination." }
+                { icon: Activity, title: "24/7 Rapid Response", description: "Coyotes don't follow a schedule. We provide emergency predator mitigation across McCook any time of day or night." },
+                { icon: Locate, title: "Southwest NE Local", description: "Based right here in McCook, our team understands the local geography of the Republican River valley and the behavioral patterns of our local packs." },
+                { icon: ClipboardCheck, title: "Certified Experts", description: "Our technicians are licensed wildlife damage control professionals, expert in NE state regulations and humane predator management." },
+                { icon: Sparkles, title: "Asset Protection", description: "We prioritize the safety of your livestock and domestic animals, using high-tech tracking and exclusion to create a permanent safety zone." }
               ].map((feature, index) => (
                 <div key={index} className="space-y-3">
                   <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-indigo-600 border border-slate-100 shadow-sm">
@@ -40,19 +40,19 @@ const WhyUs = () => {
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
               <img
                 src="/2.jpeg"
-                alt="Cricket Extermination Equipment Metropolis"
+                alt="Predator Control Assessment McCook"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
             </div>
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
                 src="/3.jpeg"
-                alt="Professional Cricket Protection Metropolis Illinois"
+                alt="Wildlife Protection McCook Nebraska"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
-                <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Cricket Issues?</p>
-                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Metropolis's Best</h4>
+                <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Predator Problems?</p>
+                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call McCook's Best</h4>
                 <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
                   <a href="tel:3238801224">Call Now</a>
                 </Button>

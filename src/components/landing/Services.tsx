@@ -1,4 +1,4 @@
-import { ArrowRight, Search, ShieldCheck, Bug, Droplets, Home } from "lucide-react";
+import { ArrowRight, Search, ShieldCheck, Target, Activity, Home } from "lucide-react";
 
 const Services = () => {
   return (
@@ -6,34 +6,34 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">cricket extermination Metropolis Illinois</span>
+            Expert <span className="text-indigo-600">coyote control McCook NE</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Metropolis property owners trust our specialized team for precision cricket removal, property exclusion, and proactive fabric protection. We eliminate infestations at their source.
+            Southwest Nebraska ranchers and property owners trust our specialized team for strategic coyote removal, livestock defense, and property securing. We manage predator threats with precision.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
+              icon: Target,
+              title: "Livestock Defense",
+              description: "Specialized predator management plans for calving, lambing, and poultry operations in McCook — ensuring your livestock remains safe from pack predation.",
+            },
+            {
               icon: Search,
-              title: "Nesting Detection",
-              description: "Clinical-grade diagnostic inspection of your Metropolis property — identifying house, field, and cave cricket nesting sites in damp, dark areas.",
+              title: "Thermal Mapping",
+              description: "Advanced nocturnal surveillance using thermal imaging to track coyote movements and identify denning sites near your property lines.",
             },
             {
               icon: ShieldCheck,
-              title: "Perimeter Barriers",
-              description: "Installation of specialized liquid or granular barriers around your foundation to prevent crickets from migrating from the outdoors into your living space.",
+              title: "Property Securing",
+              description: "Installation of predator-proof fencing, motion deterrents, and property hardening techniques to discourage coyotes from entering residential zones.",
             },
             {
-              icon: Bug,
-              title: "Metabolic Treatment",
-              description: "Targeted interior treatments using eco-targeted growth regulators that disrupt the cricket life cycle, ensuring a cricket-free environment.",
-            },
-            {
-              icon: Home,
-              title: "Exclusion Service",
-              description: "Professional sealing of gaps, cracks, and moisture points in your Metropolis home to lock out future cricket generations permanently.",
+              icon: Activity,
+              title: "Humane Removal",
+              description: "Professional, licensed removal of problem individuals and aggressive packs using humane and regulated wildlife management protocols.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">
