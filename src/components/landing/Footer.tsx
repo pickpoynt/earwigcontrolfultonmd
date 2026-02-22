@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:domain@support.com" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">domain@support.com</a>
+                  <a href="mailto:SUPPORT@squirrelpestcontrolinfultonmd.vercel.app" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">SUPPORT@squirrelpestcontrolinfultonmd.vercel.app</a>
                 </div>
               </li>
             </ul>
