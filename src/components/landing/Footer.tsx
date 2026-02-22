@@ -2,7 +2,7 @@ import { ShieldCheck, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedi
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white pt-24 pb-12 overflow-hidden relative">
+    <footer className="bg-slate-900 text-white pt-24 pb-12 overflow-hidden relative border-t border-indigo-500/10">
       <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-600/5 rounded-full blur-3xl -translate-y-48 translate-x-12" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-600/5 rounded-full blur-3xl translate-y-48 -translate-x-12" />
 
@@ -14,32 +14,32 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Frankenmuth Gopher</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Frankenmuth</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Fulton Squirrel</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Fulton</span>
               </div>
             </div>
-            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Frankenmuth's specialized team for rapid gopher mitigation and landscape asset protection. We provide elite-grade subterranean tracking and security services to restore your property's safety.
+            <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
+              Fulton's specialized team for rapid squirrel mitigation and attic asset protection. We provide elite-grade structural exclusion and security services to restore your property's safety.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
                 <a key={i} href="#" className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-indigo-600 hover:border-indigo-600 transition-all duration-300">
-                  <Icon className="w-5 h-5" />
+                  <Icon className="w-5 h-5 text-slate-400 group-hover:text-white" />
                 </a>
               ))}
             </div>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Services</h4>
             <ul className="space-y-4">
               {[
-                "Lawn Protection",
-                "Residential Removal",
-                "Subsurface Mapping",
-                "Property Hardening",
-                "Gopher Mesh Install",
-                "Burrow Mitigation"
+                "Attic Exclusion",
+                "Roofline Sealing",
+                "Wiring Safety Audit",
+                "Humane Mitigation",
+                "Structural Damage",
+                "Insulation Cleanup"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -52,16 +52,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Contact</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Howard County NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
                   <MapPin className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Office</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">635 S Main St</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Frankenmuth, MI 48734</p>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">7600 Old Columbia Rd</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Fulton, MD 20759</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -69,7 +69,7 @@ const Footer = () => {
                   <Phone className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Hotline</p>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Emergency</p>
                   <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(323) 880-1224</a>
                 </div>
               </li>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:leasemynumber@gmail.com" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">leasemynumber@gmail.com</a>
+                  <a href="mailto:domain@support.com" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">domain@support.com</a>
                 </div>
               </li>
             </ul>
@@ -88,18 +88,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Standards</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We operate under strict pest mitigation protocols to ensure professional results while maintaining the ecological balance of Saginaw County.
+              We operate under strict pest mitigation protocols to ensure professional results while maintaining the ecological balance of Howard County and Fulton.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Assessment Available in Frankenmuth.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Attic Assessment Available in Fulton MD.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Frankenmuth Gopher Control Pros. All rights reserved. Professional Wildlife Management & Gopher Control.
+            © {new Date().getFullYear()} Fulton Squirrel Control Pros. All rights reserved. Professional Wildlife Management & Squirrel Control.
           </p>
           <div className="flex gap-8 items-center">
             <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30">Lease My Number</a>

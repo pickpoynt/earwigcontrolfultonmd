@@ -1,61 +1,65 @@
-import { HelpCircle } from 'lucide-react';
+import { ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
 
 const faqs = [
   {
-    question: "How do I know if I have a gopher problem in Frankenmuth?",
-    answer: "The most common sign is the appearance of crescent-shaped mounds of fresh soil on your lawn or in your garden. You might also notice plants suddenly dying from root damage or tunnels appearing just below the surface of the soil. If your irrigation lines are being damaged, it's a critical sign of a gopher infestation that requires immediate Gopher control Frankenmuth MI intervention."
+    question: "How do I know if squirrels are in my attic?",
+    answer: "Common signs include scurrying or scratching sounds during early morning or evening hours, gnaw marks on wood or wires, small entry holes in fascia boards, and peculiar odors from nesting materials."
   },
   {
-    question: "Are your gopher control methods safe for my lawn?",
-    answer: "Yes. We use specialized, low-impact removal techniques that target gophers within their burrow systems. This allows us to neutralize the threat without the need for extensive digging or damaging your turf. Our goal is to protect your landscape's aesthetic while eliminating the pests."
+    question: "Will professional squirrel control keep them out for good?",
+    answer: "Yes, our 'Structural Exclusion' approach focuses on permanent solutions. We identify every potential entry point and seal them with chewing-resistant materials like high-grade steel mesh and industrial sealants."
   },
   {
-    question: "Can gophers damage my home's foundation?",
-    answer: "Absolutely. Constant burrowing near foundations can lead to soil erosion and voids under concrete slabs or walkways. Over time, this can cause structural instability. We provide perimeter hardening services in Frankenmuth to prevent gophers from undermining your property's integrity."
+    question: "Do you provide humane squirrel removal in Fulton MD?",
+    answer: "Absolutely. We follow Maryland DNR guidelines for humane wildlife management. Our preferred method is using one-way exclusion doors that allow squirrels to leave safely but prevent them from re-entering."
   },
   {
-    question: "Do you provide emergency response for gopher damage?",
-    answer: "Yes, we are available 24/7 for assessment and intervention. If you notice a sudden explosion of gopher activity that is threatening expensive landscaping or utility lines in Frankenmuth or Saginaw County, call us immediately for rapid subterranean mitigation."
+    question: "Can squirrels cause house fires?",
+    answer: "Unfortunately, yes. Squirrels have teeth that never stop growing, so they chew on hard materials—including electrical wiring. Stripped wires in the attic are a significant fire risk if not addressed immediately."
+  },
+  {
+    question: "How long does the mitigation process take?",
+    answer: "Most assessments are completed within 24 hours. The full exclusion and removal process usually takes 3 to 7 days, depending on the severity of the infestation and the number of entry points needing reinforcement."
   }
 ];
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
 const FAQ = () => {
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
+
   return (
-    <section id="faq" className="py-24 bg-slate-50">
+    <section id="faq" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm">
-            <HelpCircle className="w-4 h-4" />
-            Common Questions
-          </div>
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Gopher control Frankenmuth MI <span className="text-indigo-600">FAQ</span>
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
+            Squirrel pest control <span className="text-indigo-600">in Fulton MD FAQ</span>
           </h2>
-          <p className="text-xl text-slate-600 font-medium italic">
-            Essential information for Frankenmuth residents and property owners regarding gopher behavior, landscape safety, and effective control methods.
+          <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
+            Common questions about squirrel behavior, structural risks, and our professional exclusion process in Howard County.
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible className="w-full space-y-4">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-white border border-slate-200 rounded-2xl px-6">
-                <AccordionTrigger className="text-left font-bold text-slate-900 hover:text-indigo-600 py-6 text-lg uppercase tracking-tight" id={`faq-trigger-${index}`}>
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600 pb-6 leading-relaxed font-medium italic">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+        <div className="max-w-3xl mx-auto space-y-4">
+          {faqs.map((faq, index) => (
+            <div key={index} className="rounded-2xl border border-slate-100 bg-slate-50 overflow-hidden transition-all duration-300">
+              <button
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-white transition-colors"
+                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+              >
+                <span className="font-bold text-slate-900 uppercase tracking-tight text-sm">{faq.question}</span>
+                {openIndex === index ? (
+                  <ChevronUp className="w-5 h-5 text-indigo-600" />
+                ) : (
+                  <ChevronDown className="w-5 h-5 text-slate-400" />
+                )}
+              </button>
+              {openIndex === index && (
+                <div className="px-8 pb-6 bg-white">
+                  <p className="text-slate-600 text-sm leading-relaxed border-t border-slate-50 pt-4">{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </section>

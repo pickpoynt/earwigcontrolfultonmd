@@ -1,52 +1,49 @@
-import { ArrowRight, Search, ShieldCheck, Target, Activity, Home, Shovel, Sprout } from "lucide-react";
+import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
+
+const servicesList = [
+  {
+    icon: Home,
+    title: "Attic Exclusion",
+    description: "Our Squirrel pest control in Fulton MD experts identify structural gaps and install heavyweight steel mesh to seal your attic for good."
+  },
+  {
+    icon: Search,
+    title: "Entry Point Analysis",
+    description: "Detailed drone and manual inspections of rooflines, soffits, and vents to locate every possible squirrel access point."
+  },
+  {
+    icon: ShieldCheck,
+    title: "Property Hardening",
+    description: "Reinforcing vulnerable areas of your home's exterior with chewing-resistant materials to prevent future squirrel invasions."
+  },
+  {
+    icon: Activity,
+    title: "Humane Mitigation",
+    description: "Safe, rapid-response squirrel removal using one-way exclusion doors and professional trapping protocols in Fulton."
+  }
+];
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-white">
+    <section id="services" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Gopher control Frankenmuth MI</span>
+            Expert <span className="text-indigo-600">Squirrel pest control in Fulton MD</span>
           </h2>
-          <p className="text-xl text-slate-600 font-medium italic">
-            Frankenmuth homeowners and property managers trust our specialized team for strategic gopher removal, landscape defense, and property securing. We manage burrowing threats with precision.
+          <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
+            Comprehensive wildlife management solutions designed for Fulton's unique residential landscape. We protect your home's infrastructure from the roof down.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            {
-              icon: Sprout,
-              title: "Landscape Defense",
-              description: "Specialized gopher management plans for gardens, lawns, and flower beds in Frankenmuth — ensuring your landscape remains safe from destructive tunneling.",
-            },
-            {
-              icon: Search,
-              title: "Runway Mapping",
-              description: "Advanced subterranean detection using specialized probes to track gopher runway patterns and identify nesting sites near your property foundation.",
-            },
-            {
-              icon: ShieldCheck,
-              title: "Property Securing",
-              description: "Installation of underground gopher mesh, root guards, and perimeter hardening techniques to discourage gophers from invading your green spaces.",
-            },
-            {
-              icon: Activity,
-              title: "Burrow Neutralization",
-              description: "Professional, licensed removal of problem colonies using precision-targeted subterranean methods that are safe for your soil and landscape.",
-            }
-          ].map((service, index) => (
-            <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">
-              <a href="tel:3238801224">
-                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 transition-colors">
-                  <service.icon className="w-8 h-8 text-indigo-600 group-hover:text-white transition-colors" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700 uppercase tracking-tight">{service.title}</h3>
-                <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
-                <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
-                  Call Now <ArrowRight className="w-4 h-4" />
-                </div>
-              </a>
+          {servicesList.map((service, index) => (
+            <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-500 hover:-translate-y-1">
+              <div className="w-14 h-14 rounded-2xl bg-indigo-600 flex items-center justify-center mb-6 shadow-lg shadow-indigo-900/20 group-hover:scale-110 transition-transform">
+                <service.icon className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">{service.title}</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">{service.description}</p>
             </div>
           ))}
         </div>

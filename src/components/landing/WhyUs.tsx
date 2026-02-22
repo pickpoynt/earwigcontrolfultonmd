@@ -1,61 +1,84 @@
-import { ShieldCheck, MapPin, Activity, Locate, ClipboardCheck, Sparkles, Sprout, Shovel } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
+
+const features = [
+  {
+    icon: Clock,
+    title: "24/7 Rapid Response",
+    description: "Squirrel emergencies don't wait. Our Fulton team provides round-the-clock assessment and mitigation to stop attic damage immediately."
+  },
+  {
+    icon: Hammer,
+    title: "Structural Exclusion",
+    description: "We focus on permanent solutions. Our certified techs use heavy-duty steel and sealants to ensure squirrels can't chew their way back in."
+  },
+  {
+    icon: Award,
+    title: "Maryland Licensed",
+    description: "Fully licensed and insured specifically for wildlife control in Howard County. We follow strict DNR protocols for humane removal."
+  },
+  {
+    icon: ShieldCheck,
+    title: "Home Integrity",
+    description: "Beyond removal, we protect your wiring, insulation, and structural components from the hidden threats of rodent behavior."
+  }
+];
 
 const WhyUs = () => {
   return (
-    <section id="why-us" className="py-24 bg-white">
+    <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
-              <ShieldCheck className="w-4 h-4" />
-              <span>Frankenmuth Gopher Control Excellence</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Why Saginaw County Trusts <span className="text-indigo-600">Our Gopher Pros</span>
-            </h2>
-            <p className="text-xl text-slate-600 mb-10 leading-relaxed font-bold italic">
-              When gophers threaten your yard, gardens, and landscape, our certified pest specialists provide the precision and reliable solutions Frankenmuth owners depend on.
-            </p>
-
-            <div className="grid sm:grid-cols-2 gap-8">
-              {[
-                { icon: Activity, title: "24/7 Rapid Response", description: "Gophers can cause extensive damage overnight. We provide emergency burrow mitigation across Frankenmuth at any time." },
-                { icon: Locate, title: "Frankenmuth Local", description: "Based right here in Little Bavaria, our team understands the local soil composition of the Cass River valley and gopher nesting patterns." },
-                { icon: ClipboardCheck, title: "Certified Experts", description: "Our technicians are licensed pest control professionals, experts in Michigan state regulations and subterranean wildlife management." },
-                { icon: Sprout, title: "Landscape Protection", description: "We prioritize the aesthetic and structural integrity of your property, using specialized equipment to remove pests without ruining your turf." }
-              ].map((feature, index) => (
-                <div key={index} className="space-y-3">
-                  <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-indigo-600 border border-slate-100 shadow-sm">
-                    <feature.icon className="w-6 h-6" />
-                  </div>
-                  <h4 className="font-bold text-slate-900 uppercase tracking-wide text-sm">{feature.title}</h4>
-                  <p className="text-slate-500 text-sm leading-relaxed italic font-medium">{feature.description}</p>
-                </div>
-              ))}
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="relative">
+            <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
+            <img
+              src="/3.jpeg"
+              alt="Professional Squirrel Control Specialist"
+              className="rounded-[3rem] shadow-2xl relative z-10 border border-white"
+            />
+            <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-xl z-20 border border-slate-100 max-w-[240px]">
+              <p className="text-3xl font-bold text-indigo-600 mb-1">100%</p>
+              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Exclusion Success Rate in Fulton</p>
             </div>
           </div>
 
-          <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
-              <img
-                src="/2.jpeg"
-                alt="Gopher Control Assessment Frankenmuth"
-                className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-              />
+          <div>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
+              <ShieldCheck className="w-4 h-4" />
+              Fulton Squirrel Control Excellence
             </div>
-            <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
-              <img
-                src="/3.jpeg"
-                alt="Landscape Protection Frankenmuth Michigan"
-                className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-              />
-              <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
-                <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Gopher Problems?</p>
-                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Frankenmuth's Best</h4>
-                <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
-                  <a href="tel:3238801224">Call Now</a>
-                </Button>
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight">
+              Why Howard County Trusts Our Squirrel Pros
+            </h2>
+            <p className="text-slate-600 text-lg mb-12 leading-relaxed italic font-medium">
+              We specialize in the intersection of Fulton's residential architecture and the local squirrel population. Our methods are persistent, structural, and designed for long-term peace of mind.
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-8">
+              {features.map((feature, index) => (
+                <div key={index} className="flex gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-white shadow-lg flex items-center justify-center shrink-0 border border-slate-100">
+                    <feature.icon className="w-6 h-6 text-indigo-600" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900 mb-2 uppercase tracking-tight text-sm">{feature.title}</h4>
+                    <p className="text-slate-600 text-xs leading-relaxed">{feature.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 pt-12 border-t border-slate-200">
+              <div className="flex items-center gap-6">
+                <div>
+                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Ready to protect your home?</p>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Fulton's Best</h4>
+                </div>
+                <a
+                  href="tel:3238801224"
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all shadow-lg shadow-indigo-900/20 hover:-translate-y-1 inline-flex items-center justify-center"
+                >
+                  (323) 880-1224
+                </a>
               </div>
             </div>
           </div>

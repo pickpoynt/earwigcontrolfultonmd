@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import FrankenmuthGopherControlInfo from "@/components/landing/FrankenmuthGopherControlInfo";
+import FultonSquirrelControlInfo from "@/components/landing/FultonSquirrelControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Gopher control Frankenmuth MI - Frankenmuth Gopher Control Pros</title>
-        <meta name="description" content="Gopher control Frankenmuth MI - Professional gopher removal and landscape protection in Frankenmuth. Specialized pest experts providing humane removal and property securing." />
-        <meta name="keywords" content="Gopher control Frankenmuth MI, gopher removal Frankenmuth, landscape protection Frankenmuth, garden pest control Saginaw County, wildlife management Frankenmuth MI" />
-        <link rel="canonical" href="https://gophercontrolfrankenmuthmi.vercel.app/" />
+        <title>Squirrel pest control in Fulton MD - Fulton Squirrel Control Pros</title>
+        <meta name="description" content="Squirrel pest control in Fulton MD - Professional squirrel removal and home protection in Fulton. Specialized wildlife experts providing humane exclusion and property securing." />
+        <meta name="keywords" content="Squirrel pest control in Fulton MD, squirrel removal Fulton, attic wildlife exclusion Fulton, rodent control Howard County, humane squirrel trapping Fulton MD" />
+        <link rel="canonical" href="https://squirrelpestcontrolinfultonmd.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Frankenmuth Gopher Control Pros",
+            "name": "Fulton Squirrel Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://gophercontrolfrankenmuthmi.vercel.app/",
-            "url": "https://gophercontrolfrankenmuthmi.vercel.app/",
+            "@id": "https://squirrelpestcontrolinfultonmd.vercel.app/",
+            "url": "https://squirrelpestcontrolinfultonmd.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "635 S Main St",
-              "addressLocality": "Frankenmuth",
-              "addressRegion": "MI",
-              "postalCode": "48734",
+              "streetAddress": "7600 Old Columbia Rd",
+              "addressLocality": "Fulton",
+              "addressRegion": "MD",
+              "postalCode": "20759",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "43.3323",
-              "longitude": "-83.7383"
+              "latitude": "39.1554",
+              "longitude": "-76.9247"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Gopher Control & Landscape Protection",
+            "serviceType": "Squirrel Pest Control & Attic Exclusion",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Frankenmuth Gopher Control Pros"
+              "name": "Fulton Squirrel Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Frankenmuth, MI"
+              "name": "Fulton, MD"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Gopher Services",
+              "name": "Squirrel Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Underground Tunnel Mitigation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sub-surface Gopher Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landscape Restoration & Hardening" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Wildlife Exclusion" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Humane Squirrel Trapping" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Structural Damage Restoration" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="Gopher control Frankenmuth MI - Frankenmuth Gopher Control Pros" />
-        <meta property="og:description" content="Gopher control Frankenmuth MI - Expert gopher removal and landscape protection services in Frankenmuth, MI." />
+        <meta property="og:title" content="Squirrel pest control in Fulton MD - Fulton Squirrel Control Pros" />
+        <meta property="og:description" content="Squirrel pest control in Fulton MD - Expert squirrel removal and attic exclusion services in Fulton, MD." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://gophercontrolfrankenmuthmi.vercel.app/" />
+        <meta property="og:url" content="https://squirrelpestcontrolinfultonmd.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Gopher control <br />
-              <span className="text-white drop-shadow-sm uppercase">Frankenmuth MI</span>
+              Squirrel pest control <br />
+              <span className="text-white drop-shadow-sm uppercase">in Fulton MD</span>
             </>
           }
-          subtitle="Frankenmuth's specialized experts in professional gopher control and landscape asset protection. We provide rapid-response pest mitigation, sub-surface tracking, and property securing to safeguard your lawn and garden from destructive gophers. Available 24/7."
+          subtitle="Fulton's specialized experts in professional squirrel pest control and attic asset protection. We provide rapid-response removal, structural exclusion, and property securing to safeguard your home from destructive rodents. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="FRANKENMUTH GOPHER PROS"
+          badge="FULTON SQUIRREL PROS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <FrankenmuthGopherControlInfo />
+        <FultonSquirrelControlInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

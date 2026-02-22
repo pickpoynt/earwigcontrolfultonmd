@@ -3,13 +3,15 @@ const links = [
   { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
   { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
   { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
-  { text: "Spider Control La Grange", url: "https://brownreclusespidercontrollagrange.vercel.app" },
-  { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" }
+  { text: "Spider Control La Grange", url: "https://brownreclusespidercontrollagrange.vercel.app/" },
+  { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" },
+  { text: "Coyote Control McCook", url: "https://coyotecontrolmccookne.vercel.app/" },
+  { text: "Gopher Control Frankenmuth", url: "https://gophercontrolfrankenmuthmi.vercel.app/" }
 ];
 
 const RandomLinks = () => {
   // Take 4 links as requested
-  const selectedLinks = links.slice(0, 4);
+  const selectedLinks = links.sort(() => 0.5 - Math.random()).slice(0, 4);
 
   return (
     <div className="py-24 bg-white border-t border-slate-100">
