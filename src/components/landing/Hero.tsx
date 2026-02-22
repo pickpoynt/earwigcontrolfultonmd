@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Burbank Termite Pros",
-  subtitle = "Expert termite inspection for Burbank's residential and commercial properties.",
+  title = "Metropolis Cricket Control Pros",
+  subtitle = "Expert cricket extermination for Metropolis's residential and commercial properties.",
   image = "/1.jpeg",
-  overlayImage = "/3.jpeg",
+  overlayImage = "/2.jpeg",
   phone = "3238801224",
-  badge = "BURBANK TERMITE PROS",
+  badge = "METROPOLIS CRICKET PROS",
   features = [
-    { icon: Locate, text: "Clinical Inspection" },
-    { icon: ShieldCheck, text: "Burbank SFV Ready" },
-    { icon: Activity, text: "Protective Barriers" }
+    { icon: Locate, text: "Clinical Removal" },
+    { icon: ShieldCheck, text: "Metropolis Ready" },
+    { icon: Activity, text: "Fabric Protection" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

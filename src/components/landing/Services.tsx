@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">termite inspection burbank</span>
+            Expert <span className="text-indigo-600">cricket extermination Metropolis Illinois</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Burbank property owners trust our specialized team for precision termite detection, certified escrow reporting, and proactive property protection. We eliminate wood-destroying organisms at their source.
+            Metropolis property owners trust our specialized team for precision cricket removal, property exclusion, and proactive fabric protection. We eliminate infestations at their source.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "WDO Inspection",
-              description: "Clinical-grade diagnostic inspection of your Burbank property — identifying drywood, subterranean, and dampwood termite activity in high-risk areas.",
+              title: "Nesting Detection",
+              description: "Clinical-grade diagnostic inspection of your Metropolis property — identifying house, field, and cave cricket nesting sites in damp, dark areas.",
             },
             {
               icon: ShieldCheck,
-              title: "Escrow Reports",
-              description: "Certified Wood Destroying Organism (WDO) reports required for California real estate transactions, delivered with same-day speed and accuracy.",
+              title: "Perimeter Barriers",
+              description: "Installation of specialized liquid or granular barriers around your foundation to prevent crickets from migrating from the outdoors into your living space.",
             },
             {
               icon: Bug,
-              title: "Localized Treatment",
-              description: "Targeted localized treatments using advanced non-repellent termiticides to eliminate active colonies without the need for full-property fumigation.",
+              title: "Metabolic Treatment",
+              description: "Targeted interior treatments using eco-targeted growth regulators that disrupt the cricket life cycle, ensuring a cricket-free environment.",
             },
             {
               icon: Home,
-              title: "Soil Barriers",
-              description: "Installation of specialized liquid or baiting barriers around your Burbank foundation to prevent subterranean termites from entering your home.",
+              title: "Exclusion Service",
+              description: "Professional sealing of gaps, cracks, and moisture points in your Metropolis home to lock out future cricket generations permanently.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">

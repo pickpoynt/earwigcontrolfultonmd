@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BurbankTermiteInfo from "@/components/landing/BurbankTermiteInfo";
+import MetropolisCricketInfo from "@/components/landing/MetropolisCricketInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>termite inspection burbank - Burbank Termite Pros</title>
-        <meta name="description" content="termite inspection burbank - Professional termite inspection in Burbank. Licensed specialists providing escrow WDO reports, localized treatments, and termite protection." />
-        <meta name="keywords" content="termite inspection burbank, real estate termite report Burbank, localized termite treatment Burbank, termite protection Burbank CA, pest control Burbank CA" />
-        <link rel="canonical" href="https://termiteinspectionburbank.com/" />
+        <title>cricket extermination Metropolis Illinois - Metropolis Cricket Control Pros</title>
+        <meta name="description" content="cricket extermination Metropolis Illinois - Professional cricket extermination in Metropolis, IL. Licensed specialists providing rapid removal of crickets and long-term protection." />
+        <meta name="keywords" content="cricket extermination Metropolis Illinois, cricket removal Metropolis IL, house cricket control Metropolis, field cricket exterminator Metropolis IL, pest control Metropolis IL" />
+        <link rel="canonical" href="https://cricketexterminationmetropolisillinois.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Burbank Termite Pros",
+            "name": "Metropolis Cricket Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://termiteinspectionburbank.com/",
-            "url": "https://termiteinspectionburbank.com/",
+            "@id": "https://cricketexterminationmetropolisillinois.com/",
+            "url": "https://cricketexterminationmetropolisillinois.com/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "225 E Olive Ave",
-              "addressLocality": "Burbank",
-              "addressRegion": "CA",
-              "postalCode": "91502",
+              "streetAddress": "100 Ferry St",
+              "addressLocality": "Metropolis",
+              "addressRegion": "IL",
+              "postalCode": "62960",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "34.1808",
-              "longitude": "-118.3090"
+              "latitude": "37.1512",
+              "longitude": "-88.7320"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Termite Inspection & Protection",
+            "serviceType": "Cricket Extermination & Protection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Burbank Termite Pros"
+              "name": "Metropolis Cricket Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Burbank, CA"
+              "name": "Metropolis, IL"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Termite Services",
+              "name": "Cricket Control Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Termite Inspection" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Escrow WDO Reporting" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Localized Termite Treatment" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Cricket Extermination" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Cricket Barriers" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fabric Protection Treatments" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="termite inspection burbank - Burbank Termite Pros" />
-        <meta property="og:description" content="termite inspection burbank - Expert termite inspection and protection services in Burbank, CA." />
+        <meta property="og:title" content="cricket extermination Metropolis Illinois - Metropolis Cricket Control Pros" />
+        <meta property="og:description" content="cricket extermination Metropolis Illinois - Expert cricket removal and protection services in Metropolis, IL." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://termiteinspectionburbank.com/" />
+        <meta property="og:url" content="https://cricketexterminationmetropolisillinois.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              termite inspection <br />
-              <span className="text-white drop-shadow-sm uppercase">burbank</span>
+              cricket extermination <br />
+              <span className="text-white drop-shadow-sm uppercase">Metropolis Illinois</span>
             </>
           }
-          subtitle="Burbank's specialized experts in comprehensive termite inspection and protection. We provide escrow inspections, localized treatments, and long-term prevention strategies to safeguard your property from wood-destroying organisms. Available 24/7 for emergency service."
+          subtitle="Metropolis's specialized experts in rapid cricket extermination and long-term property protection. We eliminate noisey house crickets and destructive field crickets to safeguard your home's peace and your valuable fabrics. Licensed and ready 24/7."
           image="/1.jpeg"
-          overlayImage="/3.jpeg"
-          badge="BURBANK TERMITE ELITE"
+          overlayImage="/2.jpeg"
+          badge="METROPOLIS CRICKET ELITE"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <BurbankTermiteInfo />
+        <MetropolisCricketInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

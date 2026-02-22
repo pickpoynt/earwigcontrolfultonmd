@@ -2,20 +2,20 @@ import { HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
-    question: "What are the signs that my Burbank home needs a termite inspection?",
-    answer: "Common signs include seeing winged 'swarmers' near light sources, finding mud tubes on your foundation, hearing hollow sounds when tapping wood, or discovering discarded wings. Because termites work from the inside out, a professional termite inspection burbank is the only way to confirm an infestation before significant damage occurs."
+    question: "What are the signs that my Metropolis home needs cricket extermination?",
+    answer: "Common signs include hearing constant, loud chirping from walls, basements, or crawl spaces, especially at night. You may also find irregular holes in fabrics (curtains, clothing, rugs) and see small, black, grain-like fecal matter in damp areas of your home. If you see multiple crickets daily, a professional cricket extermination Metropolis Illinois service is highly recommended."
   },
   {
-    question: "Do I need a termite inspection for escrow in Burbank?",
-    answer: "Yes, most real estate transactions in Southern California require a Wood Destroying Organism (WDO) report to close escrow. Our team provides detailed, certified reports that satisfy lenders and provide buyers with an accurate assessment of the property's condition."
+    question: "Can crickets actually damage my property?",
+    answer: "Yes. House crickets are necrophagous but also feed on fabrics, particularly those soiled with food or perspiration. They can chew through large areas of wool, cotton, silk, and even synthetic materials, causing permanent damage to your wardrobe and home furnishings."
   },
   {
-    question: "How long does a professional termite inspection take?",
-    answer: "A comprehensive inspection of a typical Burbank home usually takes 1 to 2 hours. This includes checking the perimeter, attic, crawl space, and interior to ensure no area is left unexamined."
+    question: "Are the treatments safe for my family and pets in Metropolis?",
+    answer: "Absolutely. We use clinical-grade, eco-targeted solutions that specifically target the biology of insects like crickets. Our methods are designed to be applied strategically to nesting and entry points, ensuring maximum effectiveness with minimal environmental footprint."
   },
   {
-    question: "What is the difference between drywood and subterranean termites?",
-    answer: "Subterranean termites live in the soil and build mud tubes to reach wood sources, while drywood termites live entirely inside the wood they consume. Both are common in Burbank, and our termite inspection burbank techniques are designed to identify and treat both species effectively."
+    question: "How long does a cricket extermination treatment last?",
+    answer: "Our professional treatments include both immediate knock-down and long-lasting barrier protection. We also provide exclusion services to seal your home, which typically provides protection for an entire season or longer, depending on the environmental conditions in your part of Metropolis."
   }
 ];
 
@@ -36,10 +36,10 @@ const FAQ = () => {
             Common Questions
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            termite inspection burbank <span className="text-indigo-600">FAQ</span>
+            cricket extermination Metropolis Illinois <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Essential information for Burbank homeowners regarding termite detection, protection, and escrow requirements.
+            Essential information for Metropolis property owners regarding cricket detection, property damage prevention, and extermination methods.
           </p>
         </div>
 
