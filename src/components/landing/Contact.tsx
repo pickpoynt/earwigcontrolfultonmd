@@ -50,17 +50,8 @@ const Contact = () => {
                   <Clock className="w-5 h-5 text-indigo-600" />
                   <span>Emergency Response Area: Fulton • Scaggsville • Maple Lawn • Howard County</span>
                 </div>
-                <div className="p-8 bg-slate-900 rounded-[2rem] text-white border border-indigo-500/20 shadow-2xl relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/10 rounded-full blur-2xl" />
-                  <h4 className="text-lg font-bold mb-2 uppercase tracking-tight">Leasing Opportunity</h4>
-                  <p className="text-slate-400 text-sm leading-relaxed mb-6 italic">
-                    Are you a Maryland pest specialist? Replace this number with your business line for <span className="text-white font-bold">$19/month</span>.
-                  </p>
-                  <Button variant="outline" className="border-indigo-500/30 text-indigo-400 hover:bg-indigo-600 hover:text-white transition-all rounded-xl uppercase tracking-widest text-[10px] font-bold" asChild>
-                    <a href="/lease">Claim This Number</a>
-                  </Button>
-                </div>
               </div>
+
             </div>
 
             {/* Contact Form */}
